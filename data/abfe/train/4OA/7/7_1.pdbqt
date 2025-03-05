@@ -1,0 +1,21 @@
+REMARK  Name = 7_out.pdbqt
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_5  and  C1_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C2  <0> d   1      -0.052  -9.786   4.016  0.00  0.00    +0.015 C 
+ATOM      2  C3  <0> d   1       1.410  -7.833   4.761  0.00  0.00    +0.015 C 
+ATOM      3  C4  <0> d   1      -1.170  -9.277   4.927  0.00  0.00    +0.005 C 
+ATOM      4  C5  <0> d   1       0.270  -7.337   5.652  0.00  0.00    +0.005 C 
+ATOM      5  C6  <0> d   1       1.339  -9.331   4.458  0.00  0.00    +0.087 C 
+ATOM      6  C7  <0> d   1      -1.117  -7.761   5.155  0.00  0.00    -0.019 C 
+ATOM      7  C8  <0> d   1      -1.534  -6.983   3.903  0.00  0.00    +0.010 C 
+ENDROOT
+BRANCH   5   8
+ATOM      8  C1  <0> d   1       1.794 -10.140   5.639  0.00  0.00    +0.177 C 
+ATOM      9  O1  <0> d   1       1.299 -11.298   5.721  0.00  0.00    -0.648 OA
+ATOM     10  O2  <0> d   1       2.615  -9.552   6.398  0.00  0.00    -0.648 OA
+ENDBRANCH   5   8
+TORSDOF 1

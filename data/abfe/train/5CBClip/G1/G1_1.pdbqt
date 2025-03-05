@@ -1,0 +1,36 @@
+REMARK  Name = G1_out.pdbqt
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  C8_7
+REMARK    2  A    between atoms: C6_6  and  C7_12
+REMARK    3  A    between atoms: C8_7  and  N2_8
+REMARK    4  A    between atoms: C7_12  and  N1_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  MOL d   1       0.303  -0.619  -0.820  0.00  0.00    +0.009 C 
+ATOM      2  C2  MOL d   1       0.167   0.734  -0.524  0.00  0.00    +0.009 C 
+ATOM      3  C3  MOL d   1      -0.086   1.657  -1.540  0.00  0.00    -0.033 C 
+ATOM      4  C4  MOL d   1      -0.206   1.205  -2.855  0.00  0.00    +0.009 C 
+ATOM      5  C5  MOL d   1      -0.072  -0.148  -3.151  0.00  0.00    +0.009 C 
+ATOM      6  C6  MOL d   1       0.182  -1.071  -2.135  0.00  0.00    -0.033 C 
+ENDROOT
+BRANCH   3   7
+ATOM      7  C8  MOL d   1      -0.216   3.129  -1.221  0.00  0.00    +0.268 C 
+BRANCH   7   8
+ATOM      8  N2  MOL d   1      -1.161   3.133  -0.113  0.00  0.00    -0.075 N 
+ATOM      9  H4  MOL d   1      -0.690   3.412   0.736  0.00  0.00    +0.274 HD
+ATOM     10  H5  MOL d   1      -1.543   2.200  -0.034  0.00  0.00    +0.274 HD
+ATOM     11  H6  MOL d   1      -1.907   3.771  -0.348  0.00  0.00    +0.274 HD
+ENDBRANCH   7   8
+ENDBRANCH   3   7
+BRANCH   6  12
+ATOM     12  C7  MOL d   1       0.312  -2.544  -2.453  0.00  0.00    +0.268 C 
+BRANCH  12  13
+ATOM     13  N1  MOL d   1       0.991  -3.064  -1.275  0.00  0.00    -0.075 N 
+ATOM     14  H1  MOL d   1       1.906  -3.380  -1.562  0.00  0.00    +0.274 HD
+ATOM     15  H2  MOL d   1       0.449  -3.818  -0.876  0.00  0.00    +0.274 HD
+ATOM     16  H3  MOL d   1       1.099  -2.302  -0.622  0.00  0.00    +0.274 HD
+ENDBRANCH  12  13
+ENDBRANCH   6  12
+TORSDOF 4

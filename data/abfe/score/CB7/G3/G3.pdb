@@ -1,0 +1,65 @@
+TITLE     G3
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+HETATM    1  O1  UNL     1       1.976   0.867   1.808  1.00  0.00           O  
+HETATM    2  C1  UNL     1       0.863   0.135   1.607  1.00  0.00           C  
+HETATM    3  O2  UNL     1       0.327  -0.425   2.550  1.00  0.00           O  
+HETATM    4  C2  UNL     1       0.410   0.113   0.156  1.00  0.00           C  
+HETATM    5  C3  UNL     1       0.094   1.544  -0.332  1.00  0.00           C  
+HETATM    6  C4  UNL     1      -0.367   1.520  -1.799  1.00  0.00           C  
+HETATM    7  C5  UNL     1      -1.634   0.657  -1.918  1.00  0.00           C  
+HETATM    8  C6  UNL     1      -1.338  -0.778  -1.452  1.00  0.00           C  
+HETATM    9  C7  UNL     1      -0.222  -1.377  -2.326  1.00  0.00           C  
+HETATM   10  C8  UNL     1       1.051  -0.524  -2.209  1.00  0.00           C  
+HETATM   11  C9  UNL     1       0.745   0.912  -2.669  1.00  0.00           C  
+HETATM   12  C10 UNL     1       1.512  -0.497  -0.741  1.00  0.00           C  
+HETATM   13  C11 UNL     1      -0.869  -0.748   0.012  1.00  0.00           C  
+HETATM   14  H1  UNL     1       2.138   0.787   2.771  1.00  0.00           H  
+HETATM   15  H2  UNL     1      -0.682   1.997   0.299  1.00  0.00           H  
+HETATM   16  H3  UNL     1       0.978   2.188  -0.238  1.00  0.00           H  
+HETATM   17  H4  UNL     1      -0.583   2.541  -2.136  1.00  0.00           H  
+HETATM   18  H5  UNL     1      -1.985   0.649  -2.958  1.00  0.00           H  
+HETATM   19  H6  UNL     1      -2.441   1.088  -1.313  1.00  0.00           H  
+HETATM   20  H7  UNL     1      -2.243  -1.389  -1.539  1.00  0.00           H  
+HETATM   21  H8  UNL     1      -0.014  -2.408  -2.014  1.00  0.00           H  
+HETATM   22  H9  UNL     1      -0.550  -1.420  -3.372  1.00  0.00           H  
+HETATM   23  H10 UNL     1       1.842  -0.954  -2.836  1.00  0.00           H  
+HETATM   24  H11 UNL     1       1.651   1.527  -2.604  1.00  0.00           H  
+HETATM   25  H12 UNL     1       0.437   0.909  -3.722  1.00  0.00           H  
+HETATM   26  H13 UNL     1       2.440   0.082  -0.660  1.00  0.00           H  
+HETATM   27  H14 UNL     1       1.754  -1.514  -0.405  1.00  0.00           H  
+HETATM   28  H15 UNL     1      -0.682  -1.771   0.362  1.00  0.00           H  
+HETATM   29  H16 UNL     1      -1.671  -0.347   0.648  1.00  0.00           H  
+CONECT    1    2   14
+CONECT    2    1    3    4
+CONECT    2    3
+CONECT    3    2
+CONECT    3    2
+CONECT    4    2    5   12   13
+CONECT    5    4    6   15   16
+CONECT    6    5    7   11   17
+CONECT    7    6    8   18   19
+CONECT    8    7    9   13   20
+CONECT    9    8   10   21   22
+CONECT   10    9   11   12   23
+CONECT   11    6   10   24   25
+CONECT   12    4   10   26   27
+CONECT   13    4    8   28   29
+CONECT   14    1
+CONECT   15    5
+CONECT   16    5
+CONECT   17    6
+CONECT   18    7
+CONECT   19    7
+CONECT   20    8
+CONECT   21    9
+CONECT   22    9
+CONECT   23   10
+CONECT   24   11
+CONECT   25   11
+CONECT   26   12
+CONECT   27   12
+CONECT   28   13
+CONECT   29   13
+END   

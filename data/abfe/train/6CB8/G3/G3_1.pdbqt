@@ -1,0 +1,49 @@
+REMARK  Name = G3_out.pdbqt
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C20_1  and  C7_2
+REMARK    2  A    between atoms: C20_1  and  C18_14
+REMARK    3  A    between atoms: C20_1  and  O1_25
+REMARK    4  A    between atoms: C9_10  and  O2_12
+REMARK    5  A    between atoms: C16_18  and  C11_23
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C20 CB8 d   1      11.392  39.394  30.303  0.00  0.00    +0.183 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C7  CB8 d   1      11.456  39.807  31.754  0.00  0.00    -0.014 C 
+ATOM      3  C3  CB8 d   1      11.164  38.845  32.710  0.00  0.00    +0.030 C 
+ATOM      4  C5  CB8 d   1      11.223  39.224  34.036  0.00  0.00    +0.118 C 
+ATOM      5  N1  CB8 d   1      11.545  40.469  34.455  0.00  0.00    -0.260 NA
+ATOM      6  C8  CB8 d   1      11.826  41.401  33.525  0.00  0.00    +0.067 C 
+ATOM      7  C1  CB8 d   1      12.162  42.695  33.914  0.00  0.00    +0.035 C 
+ATOM      8  C6  CB8 d   1      11.793  41.110  32.146  0.00  0.00    +0.004 C 
+ATOM      9  C2  CB8 d   1      12.461  43.688  32.976  0.00  0.00    +0.039 C 
+ATOM     10  C9  CB8 d   1      12.426  43.393  31.619  0.00  0.00    +0.069 C 
+ATOM     11  C4  CB8 d   1      12.093  42.108  31.202  0.00  0.00    +0.051 C 
+BRANCH  10  12
+ATOM     12  O2  CB8 d   1      12.715  44.357  30.703  0.00  0.00    -0.356 OA
+ATOM     13  C19 CB8 d   1      14.076  44.477  30.293  0.00  0.00    +0.210 C 
+ENDBRANCH  10  12
+ENDBRANCH   1   2
+BRANCH   1  14
+ATOM     14  C18 CB8 d   1      10.085  38.692  29.957  0.00  0.00    +0.221 C 
+ATOM     15  C13 CB8 d   1      10.053  38.108  28.537  0.00  0.00    +0.041 C 
+ATOM     16  C17 CB8 d   1       8.754  38.521  27.818  0.00  0.00    -0.002 C 
+ATOM     17  C12 CB8 d   1       8.789  40.053  27.661  0.00  0.00    +0.033 C 
+ATOM     18  C16 CB8 d   1       7.516  38.161  28.677  0.00  0.00    +0.037 C 
+ATOM     19  C14 CB8 d   1       8.884  40.726  29.030  0.00  0.00    +0.236 C 
+ATOM     20  N2  CB8 d   1       8.905  39.648  30.098  0.00  0.00    -0.063 N 
+ATOM     21  C15 CB8 d   1       7.605  38.857  30.048  0.00  0.00    +0.244 C 
+ATOM     22  H24 CB8 d   1       8.961  40.104  31.018  0.00  0.00    +0.280 HD
+BRANCH  18  23
+ATOM     23  C11 CB8 d   1       7.331  36.680  28.822  0.00  0.00    -0.030 C 
+ATOM     24  C10 CB8 d   1       7.143  35.845  27.794  0.00  0.00    +0.007 C 
+ENDBRANCH  18  23
+ENDBRANCH   1  14
+BRANCH   1  25
+ATOM     25  O1  CB8 d   1      12.476  38.506  30.042  0.00  0.00    -0.389 OA
+ATOM     26  H25 CB8 d   1      13.069  38.966  29.428  0.00  0.00    +0.210 HD
+ENDBRANCH   1  25
+TORSDOF 5

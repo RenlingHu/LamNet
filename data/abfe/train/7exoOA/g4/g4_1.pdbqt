@@ -1,0 +1,35 @@
+REMARK  Name = g4_out.pdbqt
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C9_1  and  C7_2
+REMARK    2  A    between atoms: C9_1  and  C10_7
+REMARK    3  A    between atoms: C7_2  and  C1_3
+REMARK    4  A    between atoms: C10_7  and  C8_9
+REMARK    5  A    between atoms: C8_9  and  C3_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C9  UNL d   1      -1.104  -1.828   0.480  0.00  0.00    +0.008 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C10 UNL d   1       0.213  -1.142   0.055  0.00  0.00    -0.008 C 
+ATOM      3  C6  UNL d   1       0.073   0.385   0.030  0.00  0.00    +0.010 C 
+BRANCH   2   4
+ATOM      4  C8  UNL d   1       0.654  -1.636  -1.332  0.00  0.00    +0.117 C 
+BRANCH   4   5
+ATOM      5  C3  UNL d   1       0.806  -3.153  -1.498  0.00  0.00    +0.172 C 
+ATOM      6  O1  UNL d   1       1.841  -3.635  -0.956  0.00  0.00    -0.648 OA
+ATOM      7  O2  UNL d   1      -0.097  -3.735  -2.161  0.00  0.00    -0.648 OA
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  C7  UNL d   1      -1.044  -2.444   1.881  0.00  0.00    +0.028 C 
+BRANCH   8   9
+ATOM      9  C1  UNL d   1       0.087  -3.431   1.991  0.00  0.00    -0.025 C 
+ATOM     10  C2  UNL d   1       0.025  -4.769   1.853  0.00  0.00    -0.091 C 
+ATOM     11  C4  UNL d   1       1.196  -5.702   1.977  0.00  0.00    +0.042 C 
+ATOM     12  C5  UNL d   1      -1.287  -5.448   1.566  0.00  0.00    +0.042 C 
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+TORSDOF 5

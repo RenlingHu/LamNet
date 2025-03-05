@@ -1,0 +1,28 @@
+REMARK  Name = 5_out.pdbqt
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_5  and  N1_7
+REMARK    2  A    between atoms: C6_6  and  N2_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  <0> d   1      -1.174  -0.794   0.509  0.00  0.00    +0.002 C 
+ATOM      2  C2  <0> d   1      -0.119  -1.637  -0.201  0.00  0.00    +0.002 C 
+ATOM      3  C3  <0> d   1      -0.985   0.700   0.245  0.00  0.00    +0.035 C 
+ATOM      4  C4  <0> d   1       1.300  -1.186   0.141  0.00  0.00    +0.035 C 
+ATOM      5  C5  <0> d   1       0.435   1.188   0.547  0.00  0.00    +0.213 C 
+ATOM      6  C6  <0> d   1       1.525   0.314  -0.081  0.00  0.00    +0.213 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  N1  <0> d   1       0.633   1.201   2.029  0.00  0.00    -0.073 N 
+ATOM      8  H11 <0> d   1       1.005   2.102   2.330  0.00  0.00    +0.274 HD
+ATOM      9  H12 <0> d   1       1.289   0.468   2.306  0.00  0.00    +0.274 HD
+ATOM     10  H13 <0> d   1      -0.256   1.039   2.506  0.00  0.00    +0.274 HD
+ENDBRANCH   5   7
+BRANCH   6  11
+ATOM     11  N2  <0> d   1       1.557   0.580  -1.552  0.00  0.00    -0.073 N 
+ATOM     12  H14 <0> d   1       2.202   1.344  -1.760  0.00  0.00    +0.274 HD
+ATOM     13  H15 <0> d   1       0.627   0.838  -1.887  0.00  0.00    +0.274 HD
+ATOM     14  H16 <0> d   1       1.865  -0.254  -2.057  0.00  0.00    +0.274 HD
+ENDBRANCH   6  11
+TORSDOF 2

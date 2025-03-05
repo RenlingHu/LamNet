@@ -1,0 +1,56 @@
+REMARK  Name = G7_out.pdbqt
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_15  and  C13_21
+REMARK    2  A    between atoms: N2_20  and  C17_26
+REMARK    3  A    between atoms: C13_21  and  C14_22
+REMARK    4  A    between atoms: C14_22  and  C19_23
+REMARK    5  A    between atoms: C17_26  and  C18_27
+REMARK    6  A    between atoms: C18_27  and  C20_28
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  MOL d   1       0.324  -0.552  -0.516  0.00  0.00    +0.019 C 
+ATOM      2  C2  MOL d   1       0.286  -1.135  -1.749  0.00  0.00    +0.044 C 
+ATOM      3  C3  MOL d   1       0.122  -0.338  -2.898  0.00  0.00    +0.008 C 
+ATOM      4  C4  MOL d   1      -0.034   1.046  -2.764  0.00  0.00    +0.008 C 
+ATOM      5  C5  MOL d   1       0.032   1.636  -1.488  0.00  0.00    +0.044 C 
+ATOM      6  C6  MOL d   1       0.214   0.851  -0.386  0.00  0.00    +0.019 C 
+ATOM      7  C7  MOL d   1       0.114  -0.923  -4.179  0.00  0.00    +0.044 C 
+ATOM      8  C8  MOL d   1      -0.257   1.837  -3.907  0.00  0.00    +0.044 C 
+ATOM      9  C9  MOL d   1      -0.299   1.250  -5.140  0.00  0.00    +0.019 C 
+ATOM     10  C10 MOL d   1      -0.094  -0.142  -5.279  0.00  0.00    +0.019 C 
+ATOM     11  C11 MOL d   1      -0.099   3.120  -1.348  0.00  0.00    +0.261 C 
+ATOM     12  C12 MOL d   1      -0.477   3.310  -3.756  0.00  0.00    +0.261 C 
+ATOM     13  O1  MOL d   1       0.019   3.633  -0.272  0.00  0.00    -0.267 OA
+ATOM     14  O2  MOL d   1      -0.743   3.983  -4.711  0.00  0.00    -0.267 OA
+ATOM     15  N1  MOL d   1      -0.377   3.851  -2.488  0.00  0.00    -0.279 N 
+ATOM     16  C15 MOL d   1       0.421  -2.618  -1.892  0.00  0.00    +0.261 C 
+ATOM     17  C16 MOL d   1       0.383  -2.388  -4.323  0.00  0.00    +0.261 C 
+ATOM     18  O3  MOL d   1       0.462  -3.313  -0.918  0.00  0.00    -0.267 OA
+ATOM     19  O4  MOL d   1       0.481  -2.880  -5.407  0.00  0.00    -0.267 OA
+ATOM     20  N2  MOL d   1       0.526  -3.132  -3.168  0.00  0.00    -0.279 N 
+ENDROOT
+BRANCH  15  21
+ATOM     21  C13 MOL d   1      -0.621   5.320  -2.342  0.00  0.00    +0.146 C 
+BRANCH  21  22
+ATOM     22  C14 MOL d   1      -2.029   5.673  -1.865  0.00  0.00    +0.133 C 
+BRANCH  22  23
+ATOM     23  C19 MOL d   1      -2.930   6.192  -3.027  0.00  0.00    +0.174 C 
+ATOM     24  O5  MOL d   1      -3.594   5.336  -3.617  0.00  0.00    -0.648 OA
+ATOM     25  O6  MOL d   1      -2.887   7.408  -3.201  0.00  0.00    -0.648 OA
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  15  21
+BRANCH  20  26
+ATOM     26  C17 MOL d   1       0.846  -4.587  -3.309  0.00  0.00    +0.146 C 
+BRANCH  26  27
+ATOM     27  C18 MOL d   1       2.317  -4.932  -3.113  0.00  0.00    +0.133 C 
+BRANCH  27  28
+ATOM     28  C20 MOL d   1       3.055  -5.116  -4.476  0.00  0.00    +0.174 C 
+ATOM     29  O7  MOL d   1       2.973  -6.245  -4.982  0.00  0.00    -0.648 OA
+ATOM     30  O8  MOL d   1       3.629  -4.106  -4.888  0.00  0.00    -0.648 OA
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+ENDBRANCH  20  26
+TORSDOF 6

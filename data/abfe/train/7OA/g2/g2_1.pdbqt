@@ -1,0 +1,21 @@
+REMARK  Name = g2_out.pdbqt
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_5  and  C7_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UNL d   1       0.838   1.672  -3.139  0.00  0.00    +0.020 C 
+ATOM      2  C2  UNL d   1      -1.516   1.139  -3.229  0.00  0.00    +0.020 C 
+ATOM      3  C3  UNL d   1       0.917   1.111  -1.866  0.00  0.00    +0.025 C 
+ATOM      4  C4  UNL d   1      -1.438   0.577  -1.955  0.00  0.00    +0.025 C 
+ATOM      5  C5  UNL d   1      -0.378   1.687  -3.822  0.00  0.00    +0.040 C 
+ATOM      6  C6  UNL d   1      -0.220   0.563  -1.273  0.00  0.00    +0.034 C 
+ATOM      7 Cl1  UNL d   1      -0.122  -0.132   0.298  0.00  0.00    -0.084 Cl
+ENDROOT
+BRANCH   5   8
+ATOM      8  C7  UNL d   1      -0.461   2.279  -5.166  0.00  0.00    +0.209 C 
+ATOM      9  O1  UNL d   1      -1.607   2.331  -5.752  0.00  0.00    -0.644 OA
+ATOM     10  O2  UNL d   1       0.615   2.726  -5.714  0.00  0.00    -0.644 OA
+ENDBRANCH   5   8
+TORSDOF 1

@@ -1,0 +1,1 @@
+{"save_model": true, "create": true, "save_dir": "./model", "max_checkpoints": 10, "batch_size": 32, "epochs": 800, "repeat": 1, "early_stop_epoch": 100, "task_type": "rbfe", "mode": "multi", "system": "thrombin", "app_mode": "score", "lr_multi": 0.01, "weight_decay_multi": 0.001, "use_aue_weight": true}

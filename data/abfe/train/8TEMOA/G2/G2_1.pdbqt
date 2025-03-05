@@ -1,0 +1,16 @@
+REMARK  Name = G2_out.pdbqt
+REMARK  0 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  <0> d   1       0.255  -3.608   1.242  0.00  0.00    +0.056 C 
+ATOM      2  C2  <0> d   1      -0.323  -3.563  -1.103  0.00  0.00    +0.056 C 
+ATOM      3  C3  <0> d   1       0.250  -2.214   1.270  0.00  0.00    +0.023 C 
+ATOM      4  C4  <0> d   1      -0.329  -2.169  -1.075  0.00  0.00    +0.023 C 
+ATOM      5  C5  <0> d   1      -0.032  -4.283   0.055  0.00  0.00    +0.172 C 
+ATOM      6  C6  <0> d   1      -0.042  -1.494   0.112  0.00  0.00    +0.011 C 
+ATOM      7  O1  <0> d   1      -0.027  -5.564   0.029  0.00  0.00    -0.289 OA
+ATOM      8 Br1  <0> d   1      -0.053   0.395   0.152  0.00  0.00    -0.051 Br
+ENDROOT
+TORSDOF 0

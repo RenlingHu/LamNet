@@ -1,0 +1,28 @@
+REMARK  Name = G11_out.pdbqt
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_5  and  N1_7
+REMARK    2  A    between atoms: C6_6  and  N2_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  CB8 d   1       9.221  38.134  31.359  0.00  0.00    +0.034 C 
+ATOM      2  C2  CB8 d   1       9.101  36.865  30.515  0.00  0.00    +0.034 C 
+ATOM      3  C3  CB8 d   1       7.498  39.274  29.889  0.00  0.00    +0.034 C 
+ATOM      4  C4  CB8 d   1       7.379  38.006  29.045  0.00  0.00    +0.034 C 
+ATOM      5  C5  CB8 d   1       8.879  39.374  30.535  0.00  0.00    +0.183 C 
+ATOM      6  C6  CB8 d   1       7.720  36.765  29.869  0.00  0.00    +0.183 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  N1  CB8 d   1       8.910  40.565  31.424  0.00  0.00    -0.075 N 
+ATOM      8  H11 CB8 d   1       9.780  40.590  31.961  0.00  0.00    +0.274 HD
+ATOM      9  H12 CB8 d   1       8.126  40.541  32.080  0.00  0.00    +0.274 HD
+ATOM     10  H13 CB8 d   1       8.844  41.425  30.874  0.00  0.00    +0.274 HD
+ENDBRANCH   5   7
+BRANCH   6  11
+ATOM     11  N2  CB8 d   1       7.691  35.574  28.980  0.00  0.00    -0.075 N 
+ATOM     12  H14 CB8 d   1       8.011  34.742  29.484  0.00  0.00    +0.274 HD
+ATOM     13  H15 CB8 d   1       8.301  35.715  28.171  0.00  0.00    +0.274 HD
+ATOM     14  H16 CB8 d   1       6.741  35.402  28.642  0.00  0.00    +0.274 HD
+ENDBRANCH   6  11
+TORSDOF 2

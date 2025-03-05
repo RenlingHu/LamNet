@@ -1,0 +1,107 @@
+REMARK  Name = G4_out.pdbqt
+REMARK  21 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_4  and  O1_7
+REMARK    2  A    between atoms: C5_5  and  O2_27
+REMARK    3  A    between atoms: C6_6  and  O3_17
+REMARK    4  A    between atoms: O1_7  and  C28_8
+REMARK    5  A    between atoms: C28_8  and  C25_9
+REMARK    6  A    between atoms: C25_9  and  N1_10
+REMARK    7  A    between atoms: N1_10  and  C16_11
+REMARK    8  A    between atoms: N1_10  and  C17_13
+REMARK    9  A    between atoms: N1_10  and  C18_15
+REMARK   10  A    between atoms: O3_17  and  C30_18
+REMARK   11  A    between atoms: C30_18  and  C27_19
+REMARK   12  A    between atoms: C27_19  and  N3_20
+REMARK   13  A    between atoms: N3_20  and  C22_21
+REMARK   14  A    between atoms: N3_20  and  C23_23
+REMARK   15  A    between atoms: N3_20  and  C24_25
+REMARK   16  A    between atoms: O2_27  and  C29_28
+REMARK   17  A    between atoms: C29_28  and  C26_29
+REMARK   18  A    between atoms: C26_29  and  N2_30
+REMARK   19  A    between atoms: N2_30  and  C19_31
+REMARK   20  A    between atoms: N2_30  and  C20_33
+REMARK   21  A    between atoms: N2_30  and  C21_35
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  CB8 d   1       9.530  36.577  31.642  0.00  0.00    +0.006 C 
+ATOM      2  C2  CB8 d   1      10.515  37.565  31.604  0.00  0.00    +0.040 C 
+ATOM      3  C3  CB8 d   1       9.227  35.849  30.491  0.00  0.00    +0.040 C 
+ATOM      4  C4  CB8 d   1      11.198  37.824  30.415  0.00  0.00    +0.104 C 
+ATOM      5  C5  CB8 d   1       9.909  36.109  29.303  0.00  0.00    +0.104 C 
+ATOM      6  C6  CB8 d   1      10.895  37.096  29.265  0.00  0.00    +0.135 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  O2  CB8 d   1       9.605  35.391  28.186  0.00  0.00    -0.347 OA
+BRANCH   7   8
+ATOM      8  C29 CB8 d   1       8.228  35.096  27.961  0.00  0.00    +0.203 C 
+BRANCH   8   9
+ATOM      9  C26 CB8 d   1       8.033  34.647  26.526  0.00  0.00    +0.264 C 
+BRANCH   9  10
+ATOM     10  N2  CB8 d   1       6.655  34.121  26.360  0.00  0.00    -0.066 N 
+BRANCH  10  11
+ATOM     11  C21 CB8 d   1       5.677  34.856  27.287  0.00  0.00    +0.233 C 
+ATOM     12  C12 CB8 d   1       4.870  35.846  26.476  0.00  0.00    +0.035 C 
+ENDBRANCH  10  11
+BRANCH  10  13
+ATOM     13  C20 CB8 d   1       6.598  32.625  26.697  0.00  0.00    +0.233 C 
+ATOM     14  C11 CB8 d   1       5.409  32.360  27.594  0.00  0.00    +0.035 C 
+ENDBRANCH  10  13
+BRANCH  10  15
+ATOM     15  C19 CB8 d   1       6.171  34.304  24.916  0.00  0.00    +0.233 C 
+ATOM     16  C10 CB8 d   1       7.368  34.348  23.990  0.00  0.00    +0.035 C 
+ENDBRANCH  10  15
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   6  17
+ATOM     17  O3  CB8 d   1      11.560  37.351  28.102  0.00  0.00    -0.344 OA
+BRANCH  17  18
+ATOM     18  C30 CB8 d   1      11.072  38.425  27.300  0.00  0.00    +0.204 C 
+BRANCH  18  19
+ATOM     19  C27 CB8 d   1       9.736  38.040  26.696  0.00  0.00    +0.264 C 
+BRANCH  19  20
+ATOM     20  N3  CB8 d   1       8.694  38.984  27.171  0.00  0.00    -0.066 N 
+BRANCH  20  21
+ATOM     21  C22 CB8 d   1       7.438  38.896  26.294  0.00  0.00    +0.233 C 
+ATOM     22  C13 CB8 d   1       7.687  37.926  25.161  0.00  0.00    +0.035 C 
+ENDBRANCH  20  21
+BRANCH  20  23
+ATOM     23  C23 CB8 d   1       8.289  38.666  28.617  0.00  0.00    +0.233 C 
+ATOM     24  C14 CB8 d   1       6.868  38.145  28.634  0.00  0.00    +0.035 C 
+ENDBRANCH  20  23
+BRANCH  20  25
+ATOM     25  C24 CB8 d   1       9.207  40.430  27.126  0.00  0.00    +0.233 C 
+ATOM     26  C15 CB8 d   1       9.178  41.013  28.522  0.00  0.00    +0.035 C 
+ENDBRANCH  20  25
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   6  17
+BRANCH   4  27
+ATOM     27  O1  CB8 d   1      12.163  38.796  30.393  0.00  0.00    -0.347 OA
+BRANCH  27  28
+ATOM     28  C28 CB8 d   1      11.771  40.100  30.797  0.00  0.00    +0.203 C 
+BRANCH  28  29
+ATOM     29  C25 CB8 d   1      12.866  40.723  31.639  0.00  0.00    +0.264 C 
+BRANCH  29  30
+ATOM     30  N1  CB8 d   1      12.270  41.224  32.947  0.00  0.00    -0.066 N 
+BRANCH  30  31
+ATOM     31  C16 CB8 d   1      12.490  42.726  33.062  0.00  0.00    +0.233 C 
+ATOM     32  C7  CB8 d   1      13.566  43.147  32.085  0.00  0.00    +0.035 C 
+ENDBRANCH  30  31
+BRANCH  30  33
+ATOM     33  C17 CB8 d   1      10.778  40.926  32.972  0.00  0.00    +0.233 C 
+ATOM     34  C8  CB8 d   1      10.033  42.150  33.460  0.00  0.00    +0.035 C 
+ENDBRANCH  30  33
+BRANCH  30  35
+ATOM     35  C18 CB8 d   1      12.947  40.521  34.115  0.00  0.00    +0.233 C 
+ATOM     36  C9  CB8 d   1      12.237  39.213  34.389  0.00  0.00    +0.035 C 
+ENDBRANCH  30  35
+ENDBRANCH  29  30
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH   4  27
+TORSDOF 21

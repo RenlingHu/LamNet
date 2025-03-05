@@ -1,0 +1,41 @@
+REMARK  Name = 3_out.pdbqt
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2
+REMARK    2  A    between atoms: C1_1  and  C3_7
+REMARK    3  A    between atoms: C2_2  and  C4_3
+REMARK    4  A    between atoms: C4_3  and  C6_4
+REMARK    5  A    between atoms: C6_4  and  O1_5
+REMARK    6  A    between atoms: C3_7  and  C5_8
+REMARK    7  A    between atoms: C5_8  and  N1_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  <0> d   1      -0.508   1.698  -0.202  0.00  0.00    +0.002 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C2  <0> d   1       0.930   1.305   0.145  0.00  0.00    +0.002 C 
+BRANCH   2   3
+ATOM      3  C4  <0> d   1       1.381   0.083  -0.658  0.00  0.00    +0.026 C 
+BRANCH   3   4
+ATOM      4  C6  <0> d   1       1.463  -1.174   0.201  0.00  0.00    +0.164 C 
+BRANCH   4   5
+ATOM      5  O1  <0> d   1       0.258  -1.916   0.091  0.00  0.00    -0.401 OA
+ATOM      6  H16 <0> d   1       0.510  -2.846  -0.025  0.00  0.00    +0.209 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C3  <0> d   1      -1.514   0.971   0.696  0.00  0.00    +0.027 C 
+BRANCH   7   8
+ATOM      8  C5  <0> d   1      -1.026   0.791   2.128  0.00  0.00    +0.229 C 
+BRANCH   8   9
+ATOM      9  N1  <0> d   1      -1.205  -0.611   2.570  0.00  0.00    -0.079 N 
+ATOM     10  H13 <0> d   1      -1.966  -1.067   2.053  0.00  0.00    +0.274 HD
+ATOM     11  H14 <0> d   1      -1.434  -0.656   3.570  0.00  0.00    +0.274 HD
+ATOM     12  H15 <0> d   1      -0.350  -1.158   2.419  0.00  0.00    +0.274 HD
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 7

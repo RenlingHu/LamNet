@@ -1,0 +1,30 @@
+REMARK  Name = G10_out.pdbqt
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C9_9  and  N1_11
+REMARK    2  A    between atoms: C10_10  and  O1_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  CB8 d   1      10.185  36.842  29.388  0.00  0.00    +0.009 C 
+ATOM      2  C2  CB8 d   1       9.090  38.002  31.326  0.00  0.00    +0.043 C 
+ATOM      3  C3  CB8 d   1       9.979  39.344  29.391  0.00  0.00    +0.043 C 
+ATOM      4  C4  CB8 d   1       7.711  36.634  29.739  0.00  0.00    +0.042 C 
+ATOM      5  C5  CB8 d   1       8.598  37.972  27.809  0.00  0.00    +0.042 C 
+ATOM      6  C6  CB8 d   1       7.498  39.137  29.745  0.00  0.00    +0.076 C 
+ATOM      7  C7  CB8 d   1       9.073  36.737  30.447  0.00  0.00    -0.009 C 
+ATOM      8  C8  CB8 d   1       9.966  38.084  28.505  0.00  0.00    -0.009 C 
+ATOM      9  C9  CB8 d   1       8.863  39.242  30.444  0.00  0.00    +0.127 C 
+ATOM     10  C10 CB8 d   1       7.477  37.876  28.859  0.00  0.00    +0.061 C 
+ENDROOT
+BRANCH   9  11
+ATOM     11  N1  CB8 d   1       8.882  40.457  31.296  0.00  0.00    -0.070 N 
+ATOM     12  H15 CB8 d   1       8.721  40.217  32.280  0.00  0.00    +0.275 HD
+ATOM     13  H16 CB8 d   1       8.153  41.117  31.008  0.00  0.00    +0.275 HD
+ATOM     14  H17 CB8 d   1       9.786  40.935  31.231  0.00  0.00    +0.275 HD
+ENDBRANCH   9  11
+BRANCH  10  15
+ATOM     15  O1  CB8 d   1       6.216  37.756  28.215  0.00  0.00    -0.390 OA
+ATOM     16  H18 CB8 d   1       5.640  38.440  28.596  0.00  0.00    +0.210 HD
+ENDBRANCH  10  15
+TORSDOF 2

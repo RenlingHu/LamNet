@@ -1,0 +1,557 @@
+2025-02-13 06:10:34 - INFO - /inspire/ssd/ws-f4d69b29-e0a5-44e6-bd92-acf4de9990f0/public-project/hurenling-241310070200/LamNet/model/LamNet/01.train.py
+2025-02-13 06:10:34 - INFO - train data: 154
+2025-02-13 06:10:34 - INFO - valid data: 44
+2025-02-13 06:10:34 - INFO - Total parameters: 1212803
+2025-02-13 06:10:34 - INFO - Trainable parameters: 1212803
+2025-02-13 06:10:37 - INFO - [Train] Epoch 00000 | train_loss 1200.1685 | train_rmse 44.2899 | lr 0.000010
+2025-02-13 06:10:37 - INFO - [Validate] Epoch 00000 | valid_rmse 43.2539 | valid_pr -0.5202 | valid_criterion 21.5745 | score -1.1574
+2025-02-13 06:10:37 - INFO - [Validate] Best score achieved: -1.157450
+2025-02-13 06:10:38 - INFO - [Train] Epoch 00001 | train_loss 1201.1286 | train_rmse 44.2889 | lr 0.000020
+2025-02-13 06:10:38 - INFO - [Validate] Epoch 00001 | valid_rmse 44.7449 | valid_pr -0.5760 | valid_criterion 23.3186 | score -1.3319
+2025-02-13 06:10:38 - INFO - No improvement for 1 epochs
+2025-02-13 06:10:40 - INFO - [Train] Epoch 00002 | train_loss 1201.1620 | train_rmse 44.3122 | lr 0.000030
+2025-02-13 06:10:40 - INFO - [Validate] Epoch 00002 | valid_rmse 44.5653 | valid_pr 0.3201 | valid_criterion 23.0677 | score -1.3068
+2025-02-13 06:10:40 - INFO - No improvement for 2 epochs
+2025-02-13 06:10:41 - INFO - [Train] Epoch 00003 | train_loss 1199.6382 | train_rmse 44.2873 | lr 0.000040
+2025-02-13 06:10:41 - INFO - [Validate] Epoch 00003 | valid_rmse 43.5991 | valid_pr 0.3182 | valid_criterion 22.0355 | score -1.2035
+2025-02-13 06:10:41 - INFO - No improvement for 3 epochs
+2025-02-13 06:10:42 - INFO - [Train] Epoch 00004 | train_loss 1199.7816 | train_rmse 44.2610 | lr 0.000050
+2025-02-13 06:10:42 - INFO - [Validate] Epoch 00004 | valid_rmse 43.4103 | valid_pr -0.0004 | valid_criterion 22.0318 | score -1.2032
+2025-02-13 06:10:42 - INFO - No improvement for 4 epochs
+2025-02-13 06:10:44 - INFO - [Train] Epoch 00005 | train_loss 1196.9018 | train_rmse 44.2440 | lr 0.000060
+2025-02-13 06:10:44 - INFO - [Validate] Epoch 00005 | valid_rmse 43.2568 | valid_pr -0.1032 | valid_criterion 21.8916 | score -1.1892
+2025-02-13 06:10:44 - INFO - No improvement for 5 epochs
+2025-02-13 06:10:45 - INFO - [Train] Epoch 00006 | train_loss 1197.4947 | train_rmse 44.2546 | lr 0.000070
+2025-02-13 06:10:45 - INFO - [Validate] Epoch 00006 | valid_rmse 43.2432 | valid_pr -0.1509 | valid_criterion 21.7962 | score -1.1796
+2025-02-13 06:10:45 - INFO - No improvement for 6 epochs
+2025-02-13 06:10:46 - INFO - [Train] Epoch 00007 | train_loss 1197.6635 | train_rmse 44.2682 | lr 0.000080
+2025-02-13 06:10:46 - INFO - [Validate] Epoch 00007 | valid_rmse 43.1267 | valid_pr -0.0036 | valid_criterion 21.7658 | score -1.1766
+2025-02-13 06:10:46 - INFO - No improvement for 7 epochs
+2025-02-13 06:10:48 - INFO - [Train] Epoch 00008 | train_loss 1196.2074 | train_rmse 44.2266 | lr 0.000090
+2025-02-13 06:10:48 - INFO - [Validate] Epoch 00008 | valid_rmse 43.1876 | valid_pr -0.1251 | valid_criterion 21.9193 | score -1.1919
+2025-02-13 06:10:48 - INFO - No improvement for 8 epochs
+2025-02-13 06:10:49 - INFO - [Train] Epoch 00009 | train_loss 1195.8485 | train_rmse 44.2568 | lr 0.000100
+2025-02-13 06:10:49 - INFO - [Validate] Epoch 00009 | valid_rmse 43.1301 | valid_pr -0.0532 | valid_criterion 21.9555 | score -1.1956
+2025-02-13 06:10:49 - INFO - No improvement for 9 epochs
+2025-02-13 06:10:50 - INFO - [Train] Epoch 00010 | train_loss 1190.2100 | train_rmse 44.1954 | lr 0.000110
+2025-02-13 06:10:50 - INFO - [Validate] Epoch 00010 | valid_rmse 42.9781 | valid_pr -0.1014 | valid_criterion 21.9170 | score -1.1917
+2025-02-13 06:10:50 - INFO - No improvement for 10 epochs
+2025-02-13 06:10:51 - INFO - [Train] Epoch 00011 | train_loss 1190.0428 | train_rmse 44.2442 | lr 0.000120
+2025-02-13 06:10:51 - INFO - [Validate] Epoch 00011 | valid_rmse 42.8504 | valid_pr -0.0454 | valid_criterion 21.9719 | score -1.1972
+2025-02-13 06:10:51 - INFO - No improvement for 11 epochs
+2025-02-13 06:10:52 - INFO - [Train] Epoch 00012 | train_loss 1187.6378 | train_rmse 44.2297 | lr 0.000130
+2025-02-13 06:10:52 - INFO - [Validate] Epoch 00012 | valid_rmse 42.8702 | valid_pr 0.0004 | valid_criterion 22.1239 | score -1.2124
+2025-02-13 06:10:52 - INFO - No improvement for 12 epochs
+2025-02-13 06:10:54 - INFO - [Train] Epoch 00013 | train_loss 1183.3590 | train_rmse 44.2261 | lr 0.000140
+2025-02-13 06:10:54 - INFO - [Validate] Epoch 00013 | valid_rmse 42.3333 | valid_pr -0.0237 | valid_criterion 21.2713 | score -1.1271
+2025-02-13 06:10:54 - INFO - [Validate] Best score achieved: -1.127132
+2025-02-13 06:10:55 - INFO - [Train] Epoch 00014 | train_loss 1179.9702 | train_rmse 44.2142 | lr 0.000150
+2025-02-13 06:10:55 - INFO - [Validate] Epoch 00014 | valid_rmse 41.7067 | valid_pr -0.0160 | valid_criterion 20.2563 | score -1.0256
+2025-02-13 06:10:55 - INFO - [Validate] Best score achieved: -1.025634
+2025-02-13 06:10:56 - INFO - [Train] Epoch 00015 | train_loss 1176.1048 | train_rmse 44.2400 | lr 0.000160
+2025-02-13 06:10:56 - INFO - [Validate] Epoch 00015 | valid_rmse 41.4367 | valid_pr -0.0002 | valid_criterion 20.2852 | score -1.0285
+2025-02-13 06:10:56 - INFO - No improvement for 1 epochs
+2025-02-13 06:10:57 - INFO - [Train] Epoch 00016 | train_loss 1170.8285 | train_rmse 44.2135 | lr 0.000170
+2025-02-13 06:10:57 - INFO - [Validate] Epoch 00016 | valid_rmse 40.0640 | valid_pr 0.0361 | valid_criterion 18.3876 | score -0.8388
+2025-02-13 06:10:58 - INFO - [Validate] Best score achieved: -0.838756
+2025-02-13 06:10:59 - INFO - [Train] Epoch 00017 | train_loss 1167.1044 | train_rmse 44.2062 | lr 0.000180
+2025-02-13 06:10:59 - INFO - [Validate] Epoch 00017 | valid_rmse 38.3157 | valid_pr 0.0678 | valid_criterion 16.2819 | score -0.6282
+2025-02-13 06:10:59 - INFO - [Validate] Best score achieved: -0.628186
+2025-02-13 06:11:00 - INFO - [Train] Epoch 00018 | train_loss 1161.8948 | train_rmse 44.1691 | lr 0.000190
+2025-02-13 06:11:00 - INFO - [Validate] Epoch 00018 | valid_rmse 38.1776 | valid_pr 0.0912 | valid_criterion 16.7051 | score -0.6705
+2025-02-13 06:11:00 - INFO - No improvement for 1 epochs
+2025-02-13 06:11:01 - INFO - [Train] Epoch 00019 | train_loss 1160.1690 | train_rmse 44.1961 | lr 0.000200
+2025-02-13 06:11:01 - INFO - [Validate] Epoch 00019 | valid_rmse 37.8950 | valid_pr 0.0956 | valid_criterion 16.3227 | score -0.6323
+2025-02-13 06:11:01 - INFO - No improvement for 2 epochs
+2025-02-13 06:11:03 - INFO - [Train] Epoch 00020 | train_loss 1155.9009 | train_rmse 44.2012 | lr 0.000210
+2025-02-13 06:11:03 - INFO - [Validate] Epoch 00020 | valid_rmse 38.6567 | valid_pr 0.0768 | valid_criterion 17.6318 | score -0.7632
+2025-02-13 06:11:03 - INFO - No improvement for 3 epochs
+2025-02-13 06:11:04 - INFO - [Train] Epoch 00021 | train_loss 1149.7708 | train_rmse 44.1341 | lr 0.000220
+2025-02-13 06:11:04 - INFO - [Validate] Epoch 00021 | valid_rmse 38.0443 | valid_pr 0.1561 | valid_criterion 18.5687 | score -0.8569
+2025-02-13 06:11:04 - INFO - No improvement for 4 epochs
+2025-02-13 06:11:05 - INFO - [Train] Epoch 00022 | train_loss 1139.0106 | train_rmse 44.0627 | lr 0.000230
+2025-02-13 06:11:05 - INFO - [Validate] Epoch 00022 | valid_rmse 40.7704 | valid_pr 0.2284 | valid_criterion 19.3111 | score -0.9311
+2025-02-13 06:11:05 - INFO - No improvement for 5 epochs
+2025-02-13 06:11:06 - INFO - [Train] Epoch 00023 | train_loss 1129.5554 | train_rmse 43.8046 | lr 0.000240
+2025-02-13 06:11:06 - INFO - [Validate] Epoch 00023 | valid_rmse 35.5672 | valid_pr 0.2152 | valid_criterion 16.3638 | score -0.6364
+2025-02-13 06:11:06 - INFO - No improvement for 6 epochs
+2025-02-13 06:11:08 - INFO - [Train] Epoch 00024 | train_loss 1126.6224 | train_rmse 43.8267 | lr 0.000250
+2025-02-13 06:11:08 - INFO - [Validate] Epoch 00024 | valid_rmse 37.0430 | valid_pr 0.3282 | valid_criterion 15.0667 | score -0.5067
+2025-02-13 06:11:08 - INFO - [Validate] Best score achieved: -0.506673
+2025-02-13 06:11:09 - INFO - [Train] Epoch 00025 | train_loss 1100.1444 | train_rmse 43.3593 | lr 0.000260
+2025-02-13 06:11:09 - INFO - [Validate] Epoch 00025 | valid_rmse 31.4398 | valid_pr 0.2503 | valid_criterion 12.8348 | score -0.2835
+2025-02-13 06:11:09 - INFO - [Validate] Best score achieved: -0.283476
+2025-02-13 06:11:10 - INFO - [Train] Epoch 00026 | train_loss 1096.0468 | train_rmse 43.3720 | lr 0.000270
+2025-02-13 06:11:10 - INFO - [Validate] Epoch 00026 | valid_rmse 36.2229 | valid_pr 0.5811 | valid_criterion 9.6663 | score 0.0334
+2025-02-13 06:11:10 - INFO - [Validate] Best score achieved: 0.033369
+2025-02-13 06:11:12 - INFO - [Train] Epoch 00027 | train_loss 1093.7477 | train_rmse 43.3287 | lr 0.000280
+2025-02-13 06:11:12 - INFO - [Validate] Epoch 00027 | valid_rmse 34.5863 | valid_pr 0.4633 | valid_criterion 14.2544 | score -0.4254
+2025-02-13 06:11:12 - INFO - No improvement for 1 epochs
+2025-02-13 06:11:13 - INFO - [Train] Epoch 00028 | train_loss 1062.9528 | train_rmse 42.8499 | lr 0.000290
+2025-02-13 06:11:13 - INFO - [Validate] Epoch 00028 | valid_rmse 39.0602 | valid_pr 0.7367 | valid_criterion 19.1727 | score -0.9173
+2025-02-13 06:11:13 - INFO - No improvement for 2 epochs
+2025-02-13 06:11:14 - INFO - [Train] Epoch 00029 | train_loss 1026.6992 | train_rmse 42.3549 | lr 0.000300
+2025-02-13 06:11:14 - INFO - [Validate] Epoch 00029 | valid_rmse 41.7585 | valid_pr 0.8176 | valid_criterion 24.8306 | score -1.4831
+2025-02-13 06:11:14 - INFO - No improvement for 3 epochs
+2025-02-13 06:11:15 - INFO - [Train] Epoch 00030 | train_loss 1015.2136 | train_rmse 42.1557 | lr 0.000310
+2025-02-13 06:11:15 - INFO - [Validate] Epoch 00030 | valid_rmse 37.6175 | valid_pr 0.7290 | valid_criterion 22.1844 | score -1.2184
+2025-02-13 06:11:15 - INFO - No improvement for 4 epochs
+2025-02-13 06:11:17 - INFO - [Train] Epoch 00031 | train_loss 985.4488 | train_rmse 41.9397 | lr 0.000320
+2025-02-13 06:11:17 - INFO - [Validate] Epoch 00031 | valid_rmse 48.3447 | valid_pr 0.8126 | valid_criterion 29.9410 | score -1.9941
+2025-02-13 06:11:17 - INFO - No improvement for 5 epochs
+2025-02-13 06:11:18 - INFO - [Train] Epoch 00032 | train_loss 975.6539 | train_rmse 41.4086 | lr 0.000330
+2025-02-13 06:11:18 - INFO - [Validate] Epoch 00032 | valid_rmse 43.4143 | valid_pr 0.8163 | valid_criterion 31.2997 | score -2.1300
+2025-02-13 06:11:18 - INFO - No improvement for 6 epochs
+2025-02-13 06:11:19 - INFO - [Train] Epoch 00033 | train_loss 947.5529 | train_rmse 41.0027 | lr 0.000340
+2025-02-13 06:11:19 - INFO - [Validate] Epoch 00033 | valid_rmse 32.9072 | valid_pr 0.8416 | valid_criterion 24.8322 | score -1.4832
+2025-02-13 06:11:19 - INFO - No improvement for 7 epochs
+2025-02-13 06:11:20 - INFO - [Train] Epoch 00034 | train_loss 956.4427 | train_rmse 41.6738 | lr 0.000350
+2025-02-13 06:11:20 - INFO - [Validate] Epoch 00034 | valid_rmse 43.4099 | valid_pr 0.7594 | valid_criterion 34.9124 | score -2.4912
+2025-02-13 06:11:20 - INFO - No improvement for 8 epochs
+2025-02-13 06:11:22 - INFO - [Train] Epoch 00035 | train_loss 921.6898 | train_rmse 40.9177 | lr 0.000360
+2025-02-13 06:11:22 - INFO - [Validate] Epoch 00035 | valid_rmse 45.6591 | valid_pr 0.9120 | valid_criterion 40.6774 | score -3.0677
+2025-02-13 06:11:22 - INFO - No improvement for 9 epochs
+2025-02-13 06:11:23 - INFO - [Train] Epoch 00036 | train_loss 902.4762 | train_rmse 40.3608 | lr 0.000370
+2025-02-13 06:11:23 - INFO - [Validate] Epoch 00036 | valid_rmse 26.9383 | valid_pr 0.8678 | valid_criterion 28.8525 | score -1.8852
+2025-02-13 06:11:23 - INFO - No improvement for 10 epochs
+2025-02-13 06:11:25 - INFO - [Train] Epoch 00037 | train_loss 875.7668 | train_rmse 40.4426 | lr 0.000380
+2025-02-13 06:11:25 - INFO - [Validate] Epoch 00037 | valid_rmse 40.9602 | valid_pr 0.9231 | valid_criterion 39.3758 | score -2.9376
+2025-02-13 06:11:25 - INFO - No improvement for 11 epochs
+2025-02-13 06:11:26 - INFO - [Train] Epoch 00038 | train_loss 888.3034 | train_rmse 40.0305 | lr 0.000390
+2025-02-13 06:11:26 - INFO - [Validate] Epoch 00038 | valid_rmse 31.3494 | valid_pr 0.8517 | valid_criterion 36.6893 | score -2.6689
+2025-02-13 06:11:26 - INFO - No improvement for 12 epochs
+2025-02-13 06:11:27 - INFO - [Train] Epoch 00039 | train_loss 871.6973 | train_rmse 40.3104 | lr 0.000400
+2025-02-13 06:11:27 - INFO - [Validate] Epoch 00039 | valid_rmse 28.0676 | valid_pr 0.8919 | valid_criterion 29.1190 | score -1.9119
+2025-02-13 06:11:27 - INFO - No improvement for 13 epochs
+2025-02-13 06:11:28 - INFO - [Train] Epoch 00040 | train_loss 848.5642 | train_rmse 40.0423 | lr 0.000410
+2025-02-13 06:11:28 - INFO - [Validate] Epoch 00040 | valid_rmse 36.4744 | valid_pr 0.8891 | valid_criterion 40.0997 | score -3.0100
+2025-02-13 06:11:28 - INFO - No improvement for 14 epochs
+2025-02-13 06:11:30 - INFO - [Train] Epoch 00041 | train_loss 819.4037 | train_rmse 39.1826 | lr 0.000420
+2025-02-13 06:11:30 - INFO - [Validate] Epoch 00041 | valid_rmse 40.3417 | valid_pr 0.7638 | valid_criterion 32.6995 | score -2.2699
+2025-02-13 06:11:30 - INFO - No improvement for 15 epochs
+2025-02-13 06:11:31 - INFO - [Train] Epoch 00042 | train_loss 826.9749 | train_rmse 39.2429 | lr 0.000430
+2025-02-13 06:11:31 - INFO - [Validate] Epoch 00042 | valid_rmse 15.8965 | valid_pr 0.8381 | valid_criterion 21.2097 | score -1.1210
+2025-02-13 06:11:31 - INFO - No improvement for 16 epochs
+2025-02-13 06:11:32 - INFO - [Train] Epoch 00043 | train_loss 807.3870 | train_rmse 38.7481 | lr 0.000440
+2025-02-13 06:11:32 - INFO - [Validate] Epoch 00043 | valid_rmse 23.9694 | valid_pr 0.9060 | valid_criterion 22.7860 | score -1.2786
+2025-02-13 06:11:32 - INFO - No improvement for 17 epochs
+2025-02-13 06:11:34 - INFO - [Train] Epoch 00044 | train_loss 784.2749 | train_rmse 38.1292 | lr 0.000450
+2025-02-13 06:11:34 - INFO - [Validate] Epoch 00044 | valid_rmse 27.2484 | valid_pr 0.8231 | valid_criterion 31.4635 | score -2.1464
+2025-02-13 06:11:34 - INFO - No improvement for 18 epochs
+2025-02-13 06:11:35 - INFO - [Train] Epoch 00045 | train_loss 773.4384 | train_rmse 38.2228 | lr 0.000460
+2025-02-13 06:11:35 - INFO - [Validate] Epoch 00045 | valid_rmse 35.2091 | valid_pr 0.8942 | valid_criterion 34.0097 | score -2.4010
+2025-02-13 06:11:35 - INFO - No improvement for 19 epochs
+2025-02-13 06:11:36 - INFO - [Train] Epoch 00046 | train_loss 744.0328 | train_rmse 37.1866 | lr 0.000470
+2025-02-13 06:11:36 - INFO - [Validate] Epoch 00046 | valid_rmse 25.6780 | valid_pr 0.9243 | valid_criterion 18.5284 | score -0.8528
+2025-02-13 06:11:36 - INFO - No improvement for 20 epochs
+2025-02-13 06:11:37 - INFO - [Train] Epoch 00047 | train_loss 754.0023 | train_rmse 36.8549 | lr 0.000480
+2025-02-13 06:11:37 - INFO - [Validate] Epoch 00047 | valid_rmse 31.0380 | valid_pr 0.6637 | valid_criterion 32.7596 | score -2.2760
+2025-02-13 06:11:37 - INFO - No improvement for 21 epochs
+2025-02-13 06:11:38 - INFO - [Train] Epoch 00048 | train_loss 744.9641 | train_rmse 37.0953 | lr 0.000490
+2025-02-13 06:11:38 - INFO - [Validate] Epoch 00048 | valid_rmse 24.4738 | valid_pr 0.9251 | valid_criterion 16.4951 | score -0.6495
+2025-02-13 06:11:38 - INFO - No improvement for 22 epochs
+2025-02-13 06:11:40 - INFO - [Train] Epoch 00049 | train_loss 687.5505 | train_rmse 35.2263 | lr 0.000500
+2025-02-13 06:11:40 - INFO - [Validate] Epoch 00049 | valid_rmse 31.4947 | valid_pr 0.8473 | valid_criterion 30.6703 | score -2.0670
+2025-02-13 06:11:40 - INFO - No improvement for 23 epochs
+2025-02-13 06:11:41 - INFO - [Train] Epoch 00050 | train_loss 690.9683 | train_rmse 36.1675 | lr 0.000500
+2025-02-13 06:11:41 - INFO - [Validate] Epoch 00050 | valid_rmse 19.3482 | valid_pr 0.9123 | valid_criterion 14.2234 | score -0.4223
+2025-02-13 06:11:41 - INFO - No improvement for 24 epochs
+2025-02-13 06:11:42 - INFO - [Train] Epoch 00051 | train_loss 642.7717 | train_rmse 34.0151 | lr 0.000500
+2025-02-13 06:11:42 - INFO - [Validate] Epoch 00051 | valid_rmse 27.3090 | valid_pr 0.8888 | valid_criterion 26.0988 | score -1.6099
+2025-02-13 06:11:42 - INFO - No improvement for 25 epochs
+2025-02-13 06:11:43 - INFO - [Train] Epoch 00052 | train_loss 638.4343 | train_rmse 34.1150 | lr 0.000500
+2025-02-13 06:11:43 - INFO - [Validate] Epoch 00052 | valid_rmse 26.6625 | valid_pr 0.8901 | valid_criterion 25.8416 | score -1.5842
+2025-02-13 06:11:43 - INFO - No improvement for 26 epochs
+2025-02-13 06:11:44 - INFO - [Train] Epoch 00053 | train_loss 587.4399 | train_rmse 33.1340 | lr 0.000500
+2025-02-13 06:11:44 - INFO - [Validate] Epoch 00053 | valid_rmse 37.0616 | valid_pr 0.9352 | valid_criterion 42.0498 | score -3.2050
+2025-02-13 06:11:44 - INFO - No improvement for 27 epochs
+2025-02-13 06:11:46 - INFO - [Train] Epoch 00054 | train_loss 563.8363 | train_rmse 31.7356 | lr 0.000500
+2025-02-13 06:11:46 - INFO - [Validate] Epoch 00054 | valid_rmse 21.1192 | valid_pr 0.9633 | valid_criterion 20.5004 | score -1.0500
+2025-02-13 06:11:46 - INFO - No improvement for 28 epochs
+2025-02-13 06:11:47 - INFO - [Train] Epoch 00055 | train_loss 522.2868 | train_rmse 31.2161 | lr 0.000500
+2025-02-13 06:11:47 - INFO - [Validate] Epoch 00055 | valid_rmse 28.7430 | valid_pr 0.8605 | valid_criterion 32.6272 | score -2.2627
+2025-02-13 06:11:47 - INFO - No improvement for 29 epochs
+2025-02-13 06:11:48 - INFO - [Train] Epoch 00056 | train_loss 511.6228 | train_rmse 30.5160 | lr 0.000500
+2025-02-13 06:11:48 - INFO - [Validate] Epoch 00056 | valid_rmse 29.5567 | valid_pr 0.8209 | valid_criterion 28.5751 | score -1.8575
+2025-02-13 06:11:48 - INFO - No improvement for 30 epochs
+2025-02-13 06:11:50 - INFO - [Train] Epoch 00057 | train_loss 465.9131 | train_rmse 29.7234 | lr 0.000500
+2025-02-13 06:11:50 - INFO - [Validate] Epoch 00057 | valid_rmse 24.4977 | valid_pr 0.9060 | valid_criterion 24.4255 | score -1.4426
+2025-02-13 06:11:50 - INFO - No improvement for 31 epochs
+2025-02-13 06:11:51 - INFO - [Train] Epoch 00058 | train_loss 437.7973 | train_rmse 28.1632 | lr 0.000500
+2025-02-13 06:11:51 - INFO - [Validate] Epoch 00058 | valid_rmse 19.4392 | valid_pr 0.8943 | valid_criterion 27.9061 | score -1.7906
+2025-02-13 06:11:51 - INFO - No improvement for 32 epochs
+2025-02-13 06:11:52 - INFO - [Train] Epoch 00059 | train_loss 410.3792 | train_rmse 27.7430 | lr 0.000500
+2025-02-13 06:11:52 - INFO - [Validate] Epoch 00059 | valid_rmse 24.6649 | valid_pr 0.9316 | valid_criterion 15.9072 | score -0.5907
+2025-02-13 06:11:52 - INFO - No improvement for 33 epochs
+2025-02-13 06:11:53 - INFO - [Train] Epoch 00060 | train_loss 379.3955 | train_rmse 26.1750 | lr 0.000500
+2025-02-13 06:11:53 - INFO - [Validate] Epoch 00060 | valid_rmse 21.3138 | valid_pr 0.8915 | valid_criterion 22.8616 | score -1.2862
+2025-02-13 06:11:53 - INFO - No improvement for 34 epochs
+2025-02-13 06:11:55 - INFO - [Train] Epoch 00061 | train_loss 333.5244 | train_rmse 24.4321 | lr 0.000500
+2025-02-13 06:11:55 - INFO - [Validate] Epoch 00061 | valid_rmse 12.4480 | valid_pr 0.8873 | valid_criterion 14.8999 | score -0.4900
+2025-02-13 06:11:55 - INFO - No improvement for 35 epochs
+2025-02-13 06:11:56 - INFO - [Train] Epoch 00062 | train_loss 305.3550 | train_rmse 23.6721 | lr 0.000500
+2025-02-13 06:11:56 - INFO - [Validate] Epoch 00062 | valid_rmse 17.6869 | valid_pr 0.9476 | valid_criterion 16.2543 | score -0.6254
+2025-02-13 06:11:56 - INFO - No improvement for 36 epochs
+2025-02-13 06:11:57 - INFO - [Train] Epoch 00063 | train_loss 287.2500 | train_rmse 23.0284 | lr 0.000500
+2025-02-13 06:11:57 - INFO - [Validate] Epoch 00063 | valid_rmse 13.3134 | valid_pr 0.9173 | valid_criterion 4.2051 | score 0.5795
+2025-02-13 06:11:57 - INFO - [Validate] Best score achieved: 0.579494
+2025-02-13 06:11:58 - INFO - [Train] Epoch 00064 | train_loss 243.0474 | train_rmse 21.2149 | lr 0.000500
+2025-02-13 06:11:58 - INFO - [Validate] Epoch 00064 | valid_rmse 14.9065 | valid_pr 0.9806 | valid_criterion 13.7144 | score -0.3714
+2025-02-13 06:11:58 - INFO - No improvement for 1 epochs
+2025-02-13 06:12:00 - INFO - [Train] Epoch 00065 | train_loss 204.8771 | train_rmse 19.2485 | lr 0.000500
+2025-02-13 06:12:00 - INFO - [Validate] Epoch 00065 | valid_rmse 17.6683 | valid_pr 0.8617 | valid_criterion 26.8074 | score -1.6807
+2025-02-13 06:12:00 - INFO - No improvement for 2 epochs
+2025-02-13 06:12:01 - INFO - [Train] Epoch 00066 | train_loss 184.3268 | train_rmse 18.1205 | lr 0.000500
+2025-02-13 06:12:01 - INFO - [Validate] Epoch 00066 | valid_rmse 13.1332 | valid_pr 0.9141 | valid_criterion 21.2328 | score -1.1233
+2025-02-13 06:12:01 - INFO - No improvement for 3 epochs
+2025-02-13 06:12:02 - INFO - [Train] Epoch 00067 | train_loss 184.6893 | train_rmse 18.0276 | lr 0.000500
+2025-02-13 06:12:02 - INFO - [Validate] Epoch 00067 | valid_rmse 12.8616 | valid_pr 0.9564 | valid_criterion 7.1073 | score 0.2893
+2025-02-13 06:12:02 - INFO - No improvement for 4 epochs
+2025-02-13 06:12:03 - INFO - [Train] Epoch 00068 | train_loss 151.1115 | train_rmse 16.3152 | lr 0.000500
+2025-02-13 06:12:03 - INFO - [Validate] Epoch 00068 | valid_rmse 7.1123 | valid_pr 0.9368 | valid_criterion 4.8185 | score 0.5181
+2025-02-13 06:12:03 - INFO - No improvement for 5 epochs
+2025-02-13 06:12:05 - INFO - [Train] Epoch 00069 | train_loss 124.8722 | train_rmse 15.3653 | lr 0.000500
+2025-02-13 06:12:05 - INFO - [Validate] Epoch 00069 | valid_rmse 14.1972 | valid_pr 0.9163 | valid_criterion 22.4558 | score -1.2456
+2025-02-13 06:12:05 - INFO - No improvement for 6 epochs
+2025-02-13 06:12:06 - INFO - [Train] Epoch 00070 | train_loss 128.3045 | train_rmse 14.8435 | lr 0.000500
+2025-02-13 06:12:06 - INFO - [Validate] Epoch 00070 | valid_rmse 11.6563 | valid_pr 0.9567 | valid_criterion 4.4648 | score 0.5535
+2025-02-13 06:12:06 - INFO - No improvement for 7 epochs
+2025-02-13 06:12:07 - INFO - [Train] Epoch 00071 | train_loss 118.2425 | train_rmse 14.3989 | lr 0.000500
+2025-02-13 06:12:07 - INFO - [Validate] Epoch 00071 | valid_rmse 12.2678 | valid_pr 0.9670 | valid_criterion 16.2300 | score -0.6230
+2025-02-13 06:12:07 - INFO - No improvement for 8 epochs
+2025-02-13 06:12:08 - INFO - [Train] Epoch 00072 | train_loss 96.4387 | train_rmse 13.0276 | lr 0.000500
+2025-02-13 06:12:08 - INFO - [Validate] Epoch 00072 | valid_rmse 9.5512 | valid_pr 0.8709 | valid_criterion 9.2832 | score 0.0717
+2025-02-13 06:12:08 - INFO - No improvement for 9 epochs
+2025-02-13 06:12:10 - INFO - [Train] Epoch 00073 | train_loss 92.4952 | train_rmse 12.7377 | lr 0.000500
+2025-02-13 06:12:10 - INFO - [Validate] Epoch 00073 | valid_rmse 8.3906 | valid_pr 0.9449 | valid_criterion 9.1225 | score 0.0877
+2025-02-13 06:12:10 - INFO - No improvement for 10 epochs
+2025-02-13 06:12:11 - INFO - [Train] Epoch 00074 | train_loss 60.3859 | train_rmse 10.2450 | lr 0.000500
+2025-02-13 06:12:11 - INFO - [Validate] Epoch 00074 | valid_rmse 4.6405 | valid_pr 0.9844 | valid_criterion 4.7403 | score 0.5260
+2025-02-13 06:12:11 - INFO - No improvement for 11 epochs
+2025-02-13 06:12:12 - INFO - [Train] Epoch 00075 | train_loss 80.7409 | train_rmse 11.7325 | lr 0.000500
+2025-02-13 06:12:12 - INFO - [Validate] Epoch 00075 | valid_rmse 5.1455 | valid_pr 0.9771 | valid_criterion 2.8356 | score 0.7164
+2025-02-13 06:12:12 - INFO - [Validate] Best score achieved: 0.716436
+2025-02-13 06:12:13 - INFO - [Train] Epoch 00076 | train_loss 53.2360 | train_rmse 9.7549 | lr 0.000500
+2025-02-13 06:12:13 - INFO - [Validate] Epoch 00076 | valid_rmse 7.2625 | valid_pr 0.9783 | valid_criterion 1.8881 | score 0.8112
+2025-02-13 06:12:13 - INFO - [Validate] Best score achieved: 0.811190
+2025-02-13 06:12:14 - INFO - [Train] Epoch 00077 | train_loss 65.3507 | train_rmse 10.4828 | lr 0.000500
+2025-02-13 06:12:14 - INFO - [Validate] Epoch 00077 | valid_rmse 5.3005 | valid_pr 0.9717 | valid_criterion 3.6461 | score 0.6354
+2025-02-13 06:12:14 - INFO - No improvement for 1 epochs
+2025-02-13 06:12:16 - INFO - [Train] Epoch 00078 | train_loss 65.4688 | train_rmse 10.8398 | lr 0.000500
+2025-02-13 06:12:16 - INFO - [Validate] Epoch 00078 | valid_rmse 8.4930 | valid_pr 0.9739 | valid_criterion 9.4347 | score 0.0565
+2025-02-13 06:12:16 - INFO - No improvement for 2 epochs
+2025-02-13 06:12:17 - INFO - [Train] Epoch 00079 | train_loss 45.6744 | train_rmse 9.0496 | lr 0.000500
+2025-02-13 06:12:17 - INFO - [Validate] Epoch 00079 | valid_rmse 8.1148 | valid_pr 0.9346 | valid_criterion 2.6088 | score 0.7391
+2025-02-13 06:12:17 - INFO - No improvement for 3 epochs
+2025-02-13 06:12:18 - INFO - [Train] Epoch 00080 | train_loss 49.3968 | train_rmse 9.2390 | lr 0.000500
+2025-02-13 06:12:18 - INFO - [Validate] Epoch 00080 | valid_rmse 6.8188 | valid_pr 0.9629 | valid_criterion 3.1953 | score 0.6805
+2025-02-13 06:12:18 - INFO - No improvement for 4 epochs
+2025-02-13 06:12:20 - INFO - [Train] Epoch 00081 | train_loss 31.3233 | train_rmse 7.3104 | lr 0.000500
+2025-02-13 06:12:20 - INFO - [Validate] Epoch 00081 | valid_rmse 3.4953 | valid_pr 0.9840 | valid_criterion 2.3463 | score 0.7654
+2025-02-13 06:12:20 - INFO - No improvement for 5 epochs
+2025-02-13 06:12:21 - INFO - [Train] Epoch 00082 | train_loss 35.6229 | train_rmse 7.4251 | lr 0.000500
+2025-02-13 06:12:21 - INFO - [Validate] Epoch 00082 | valid_rmse 3.6145 | valid_pr 0.9845 | valid_criterion 1.3049 | score 0.8695
+2025-02-13 06:12:21 - INFO - [Validate] Best score achieved: 0.869509
+2025-02-13 06:12:22 - INFO - [Train] Epoch 00083 | train_loss 51.7849 | train_rmse 9.3738 | lr 0.000500
+2025-02-13 06:12:22 - INFO - [Validate] Epoch 00083 | valid_rmse 5.5747 | valid_pr 0.9789 | valid_criterion 2.8896 | score 0.7110
+2025-02-13 06:12:22 - INFO - No improvement for 1 epochs
+2025-02-13 06:12:23 - INFO - [Train] Epoch 00084 | train_loss 30.4600 | train_rmse 6.8855 | lr 0.000500
+2025-02-13 06:12:23 - INFO - [Validate] Epoch 00084 | valid_rmse 5.6410 | valid_pr 0.9710 | valid_criterion 3.4666 | score 0.6533
+2025-02-13 06:12:23 - INFO - No improvement for 2 epochs
+2025-02-13 06:12:25 - INFO - [Train] Epoch 00085 | train_loss 32.6367 | train_rmse 7.2144 | lr 0.000500
+2025-02-13 06:12:25 - INFO - [Validate] Epoch 00085 | valid_rmse 6.6752 | valid_pr 0.9505 | valid_criterion 6.8940 | score 0.3106
+2025-02-13 06:12:25 - INFO - No improvement for 3 epochs
+2025-02-13 06:12:26 - INFO - [Train] Epoch 00086 | train_loss 44.2250 | train_rmse 8.4558 | lr 0.000500
+2025-02-13 06:12:26 - INFO - [Validate] Epoch 00086 | valid_rmse 5.1282 | valid_pr 0.9652 | valid_criterion 8.1669 | score 0.1833
+2025-02-13 06:12:26 - INFO - No improvement for 4 epochs
+2025-02-13 06:12:27 - INFO - [Train] Epoch 00087 | train_loss 39.5626 | train_rmse 8.0036 | lr 0.000500
+2025-02-13 06:12:27 - INFO - [Validate] Epoch 00087 | valid_rmse 6.5847 | valid_pr 0.9554 | valid_criterion 2.5395 | score 0.7460
+2025-02-13 06:12:27 - INFO - No improvement for 5 epochs
+2025-02-13 06:12:28 - INFO - [Train] Epoch 00088 | train_loss 36.5984 | train_rmse 7.6835 | lr 0.000500
+2025-02-13 06:12:28 - INFO - [Validate] Epoch 00088 | valid_rmse 6.4702 | valid_pr 0.9794 | valid_criterion 3.2843 | score 0.6716
+2025-02-13 06:12:28 - INFO - No improvement for 6 epochs
+2025-02-13 06:12:29 - INFO - [Train] Epoch 00089 | train_loss 43.7913 | train_rmse 8.3122 | lr 0.000500
+2025-02-13 06:12:29 - INFO - [Validate] Epoch 00089 | valid_rmse 11.0620 | valid_pr 0.9268 | valid_criterion 20.2040 | score -1.0204
+2025-02-13 06:12:29 - INFO - No improvement for 7 epochs
+2025-02-13 06:12:31 - INFO - [Train] Epoch 00090 | train_loss 33.6891 | train_rmse 7.3850 | lr 0.000500
+2025-02-13 06:12:31 - INFO - [Validate] Epoch 00090 | valid_rmse 6.9551 | valid_pr 0.9579 | valid_criterion 4.7825 | score 0.5218
+2025-02-13 06:12:31 - INFO - No improvement for 8 epochs
+2025-02-13 06:12:32 - INFO - [Train] Epoch 00091 | train_loss 33.4114 | train_rmse 7.1206 | lr 0.000500
+2025-02-13 06:12:32 - INFO - [Validate] Epoch 00091 | valid_rmse 4.5932 | valid_pr 0.9784 | valid_criterion 3.4206 | score 0.6579
+2025-02-13 06:12:32 - INFO - No improvement for 9 epochs
+2025-02-13 06:12:33 - INFO - [Train] Epoch 00092 | train_loss 38.5913 | train_rmse 7.8173 | lr 0.000500
+2025-02-13 06:12:33 - INFO - [Validate] Epoch 00092 | valid_rmse 4.1207 | valid_pr 0.9853 | valid_criterion 1.9015 | score 0.8098
+2025-02-13 06:12:33 - INFO - No improvement for 10 epochs
+2025-02-13 06:12:34 - INFO - [Train] Epoch 00093 | train_loss 43.0203 | train_rmse 8.4947 | lr 0.000500
+2025-02-13 06:12:34 - INFO - [Validate] Epoch 00093 | valid_rmse 9.4951 | valid_pr 0.9516 | valid_criterion 5.9183 | score 0.4082
+2025-02-13 06:12:34 - INFO - No improvement for 11 epochs
+2025-02-13 06:12:35 - INFO - [Train] Epoch 00094 | train_loss 40.7342 | train_rmse 7.7805 | lr 0.000500
+2025-02-13 06:12:35 - INFO - [Validate] Epoch 00094 | valid_rmse 5.0426 | valid_pr 0.9710 | valid_criterion 4.4691 | score 0.5531
+2025-02-13 06:12:35 - INFO - No improvement for 12 epochs
+2025-02-13 06:12:36 - INFO - [Train] Epoch 00095 | train_loss 29.0847 | train_rmse 6.7668 | lr 0.000500
+2025-02-13 06:12:36 - INFO - [Validate] Epoch 00095 | valid_rmse 6.2987 | valid_pr 0.9823 | valid_criterion 9.4086 | score 0.0591
+2025-02-13 06:12:36 - INFO - No improvement for 13 epochs
+2025-02-13 06:12:38 - INFO - [Train] Epoch 00096 | train_loss 33.9835 | train_rmse 7.4287 | lr 0.000500
+2025-02-13 06:12:38 - INFO - [Validate] Epoch 00096 | valid_rmse 6.4502 | valid_pr 0.9721 | valid_criterion 4.0188 | score 0.5981
+2025-02-13 06:12:38 - INFO - No improvement for 14 epochs
+2025-02-13 06:12:39 - INFO - [Train] Epoch 00097 | train_loss 34.9957 | train_rmse 7.4435 | lr 0.000500
+2025-02-13 06:12:39 - INFO - [Validate] Epoch 00097 | valid_rmse 4.5047 | valid_pr 0.9793 | valid_criterion 3.8466 | score 0.6153
+2025-02-13 06:12:39 - INFO - No improvement for 15 epochs
+2025-02-13 06:12:40 - INFO - [Train] Epoch 00098 | train_loss 29.5358 | train_rmse 6.8375 | lr 0.000500
+2025-02-13 06:12:40 - INFO - [Validate] Epoch 00098 | valid_rmse 4.8784 | valid_pr 0.9808 | valid_criterion 3.3939 | score 0.6606
+2025-02-13 06:12:40 - INFO - No improvement for 16 epochs
+2025-02-13 06:12:41 - INFO - [Train] Epoch 00099 | train_loss 25.5395 | train_rmse 6.4037 | lr 0.000500
+2025-02-13 06:12:41 - INFO - [Validate] Epoch 00099 | valid_rmse 4.0267 | valid_pr 0.9856 | valid_criterion 1.9922 | score 0.8008
+2025-02-13 06:12:41 - INFO - No improvement for 17 epochs
+2025-02-13 06:12:42 - INFO - [Train] Epoch 00100 | train_loss 33.6265 | train_rmse 7.0515 | lr 0.000500
+2025-02-13 06:12:42 - INFO - [Validate] Epoch 00100 | valid_rmse 6.3330 | valid_pr 0.9733 | valid_criterion 11.3950 | score -0.1395
+2025-02-13 06:12:42 - INFO - No improvement for 18 epochs
+2025-02-13 06:12:43 - INFO - [Train] Epoch 00101 | train_loss 28.0601 | train_rmse 6.8095 | lr 0.000500
+2025-02-13 06:12:43 - INFO - [Validate] Epoch 00101 | valid_rmse 5.3115 | valid_pr 0.9819 | valid_criterion 3.9599 | score 0.6040
+2025-02-13 06:12:43 - INFO - No improvement for 19 epochs
+2025-02-13 06:12:44 - INFO - [Train] Epoch 00102 | train_loss 37.0716 | train_rmse 7.6938 | lr 0.000100
+2025-02-13 06:12:44 - INFO - [Validate] Epoch 00102 | valid_rmse 6.9907 | valid_pr 0.9741 | valid_criterion 2.4146 | score 0.7585
+2025-02-13 06:12:44 - INFO - No improvement for 20 epochs
+2025-02-13 06:12:46 - INFO - [Train] Epoch 00103 | train_loss 30.7935 | train_rmse 6.9895 | lr 0.000100
+2025-02-13 06:12:46 - INFO - [Validate] Epoch 00103 | valid_rmse 4.9769 | valid_pr 0.9909 | valid_criterion 3.0465 | score 0.6953
+2025-02-13 06:12:46 - INFO - No improvement for 21 epochs
+2025-02-13 06:12:47 - INFO - [Train] Epoch 00104 | train_loss 26.9716 | train_rmse 6.4760 | lr 0.000100
+2025-02-13 06:12:47 - INFO - [Validate] Epoch 00104 | valid_rmse 5.5970 | valid_pr 0.9921 | valid_criterion 6.2228 | score 0.3777
+2025-02-13 06:12:47 - INFO - No improvement for 22 epochs
+2025-02-13 06:12:49 - INFO - [Train] Epoch 00105 | train_loss 22.2592 | train_rmse 5.8132 | lr 0.000100
+2025-02-13 06:12:49 - INFO - [Validate] Epoch 00105 | valid_rmse 3.9228 | valid_pr 0.9905 | valid_criterion 3.0202 | score 0.6980
+2025-02-13 06:12:49 - INFO - No improvement for 23 epochs
+2025-02-13 06:12:50 - INFO - [Train] Epoch 00106 | train_loss 17.0776 | train_rmse 4.9572 | lr 0.000100
+2025-02-13 06:12:50 - INFO - [Validate] Epoch 00106 | valid_rmse 3.7050 | valid_pr 0.9916 | valid_criterion 4.4187 | score 0.5581
+2025-02-13 06:12:50 - INFO - No improvement for 24 epochs
+2025-02-13 06:12:51 - INFO - [Train] Epoch 00107 | train_loss 29.6179 | train_rmse 7.0125 | lr 0.000100
+2025-02-13 06:12:51 - INFO - [Validate] Epoch 00107 | valid_rmse 3.8974 | valid_pr 0.9838 | valid_criterion 6.1479 | score 0.3852
+2025-02-13 06:12:51 - INFO - No improvement for 25 epochs
+2025-02-13 06:12:52 - INFO - [Train] Epoch 00108 | train_loss 30.1988 | train_rmse 6.9137 | lr 0.000100
+2025-02-13 06:12:52 - INFO - [Validate] Epoch 00108 | valid_rmse 3.7437 | valid_pr 0.9872 | valid_criterion 2.5661 | score 0.7434
+2025-02-13 06:12:52 - INFO - No improvement for 26 epochs
+2025-02-13 06:12:54 - INFO - [Train] Epoch 00109 | train_loss 27.5381 | train_rmse 6.5044 | lr 0.000100
+2025-02-13 06:12:54 - INFO - [Validate] Epoch 00109 | valid_rmse 2.8317 | valid_pr 0.9926 | valid_criterion 2.4896 | score 0.7510
+2025-02-13 06:12:54 - INFO - No improvement for 27 epochs
+2025-02-13 06:12:55 - INFO - [Train] Epoch 00110 | train_loss 25.2403 | train_rmse 6.2360 | lr 0.000100
+2025-02-13 06:12:55 - INFO - [Validate] Epoch 00110 | valid_rmse 3.5153 | valid_pr 0.9923 | valid_criterion 3.0404 | score 0.6960
+2025-02-13 06:12:55 - INFO - No improvement for 28 epochs
+2025-02-13 06:12:56 - INFO - [Train] Epoch 00111 | train_loss 21.3732 | train_rmse 5.5530 | lr 0.000100
+2025-02-13 06:12:56 - INFO - [Validate] Epoch 00111 | valid_rmse 3.2942 | valid_pr 0.9929 | valid_criterion 4.1625 | score 0.5838
+2025-02-13 06:12:56 - INFO - No improvement for 29 epochs
+2025-02-13 06:12:57 - INFO - [Train] Epoch 00112 | train_loss 19.4491 | train_rmse 5.3647 | lr 0.000100
+2025-02-13 06:12:57 - INFO - [Validate] Epoch 00112 | valid_rmse 4.4309 | valid_pr 0.9917 | valid_criterion 6.4251 | score 0.3575
+2025-02-13 06:12:57 - INFO - No improvement for 30 epochs
+2025-02-13 06:12:59 - INFO - [Train] Epoch 00113 | train_loss 31.2152 | train_rmse 7.0749 | lr 0.000100
+2025-02-13 06:12:59 - INFO - [Validate] Epoch 00113 | valid_rmse 5.9469 | valid_pr 0.9905 | valid_criterion 6.8137 | score 0.3186
+2025-02-13 06:12:59 - INFO - No improvement for 31 epochs
+2025-02-13 06:13:00 - INFO - [Train] Epoch 00114 | train_loss 24.2370 | train_rmse 6.3550 | lr 0.000100
+2025-02-13 06:13:00 - INFO - [Validate] Epoch 00114 | valid_rmse 3.7753 | valid_pr 0.9933 | valid_criterion 4.2376 | score 0.5762
+2025-02-13 06:13:00 - INFO - No improvement for 32 epochs
+2025-02-13 06:13:01 - INFO - [Train] Epoch 00115 | train_loss 19.6669 | train_rmse 5.5701 | lr 0.000100
+2025-02-13 06:13:01 - INFO - [Validate] Epoch 00115 | valid_rmse 3.3350 | valid_pr 0.9928 | valid_criterion 5.0707 | score 0.4929
+2025-02-13 06:13:01 - INFO - No improvement for 33 epochs
+2025-02-13 06:13:02 - INFO - [Train] Epoch 00116 | train_loss 21.7590 | train_rmse 5.6190 | lr 0.000100
+2025-02-13 06:13:02 - INFO - [Validate] Epoch 00116 | valid_rmse 3.5050 | valid_pr 0.9908 | valid_criterion 3.0986 | score 0.6901
+2025-02-13 06:13:02 - INFO - No improvement for 34 epochs
+2025-02-13 06:13:04 - INFO - [Train] Epoch 00117 | train_loss 24.0796 | train_rmse 6.3116 | lr 0.000100
+2025-02-13 06:13:04 - INFO - [Validate] Epoch 00117 | valid_rmse 3.8594 | valid_pr 0.9913 | valid_criterion 5.2141 | score 0.4786
+2025-02-13 06:13:04 - INFO - No improvement for 35 epochs
+2025-02-13 06:13:05 - INFO - [Train] Epoch 00118 | train_loss 31.4283 | train_rmse 6.8513 | lr 0.000100
+2025-02-13 06:13:05 - INFO - [Validate] Epoch 00118 | valid_rmse 3.6329 | valid_pr 0.9912 | valid_criterion 4.7576 | score 0.5242
+2025-02-13 06:13:05 - INFO - No improvement for 36 epochs
+2025-02-13 06:13:06 - INFO - [Train] Epoch 00119 | train_loss 35.9114 | train_rmse 7.4457 | lr 0.000100
+2025-02-13 06:13:06 - INFO - [Validate] Epoch 00119 | valid_rmse 3.2511 | valid_pr 0.9926 | valid_criterion 2.3226 | score 0.7677
+2025-02-13 06:13:06 - INFO - No improvement for 37 epochs
+2025-02-13 06:13:07 - INFO - [Train] Epoch 00120 | train_loss 21.4261 | train_rmse 5.7860 | lr 0.000100
+2025-02-13 06:13:07 - INFO - [Validate] Epoch 00120 | valid_rmse 3.7316 | valid_pr 0.9914 | valid_criterion 2.8085 | score 0.7192
+2025-02-13 06:13:07 - INFO - No improvement for 38 epochs
+2025-02-13 06:13:09 - INFO - [Train] Epoch 00121 | train_loss 30.1597 | train_rmse 7.0287 | lr 0.000100
+2025-02-13 06:13:09 - INFO - [Validate] Epoch 00121 | valid_rmse 3.5464 | valid_pr 0.9899 | valid_criterion 3.4518 | score 0.6548
+2025-02-13 06:13:09 - INFO - No improvement for 39 epochs
+2025-02-13 06:13:10 - INFO - [Train] Epoch 00122 | train_loss 24.9253 | train_rmse 6.2288 | lr 0.000100
+2025-02-13 06:13:10 - INFO - [Validate] Epoch 00122 | valid_rmse 3.9463 | valid_pr 0.9873 | valid_criterion 6.3359 | score 0.3664
+2025-02-13 06:13:10 - INFO - No improvement for 40 epochs
+2025-02-13 06:13:11 - INFO - [Train] Epoch 00123 | train_loss 37.7516 | train_rmse 8.0484 | lr 0.000100
+2025-02-13 06:13:11 - INFO - [Validate] Epoch 00123 | valid_rmse 2.9440 | valid_pr 0.9917 | valid_criterion 3.0260 | score 0.6974
+2025-02-13 06:13:11 - INFO - No improvement for 41 epochs
+2025-02-13 06:13:12 - INFO - [Train] Epoch 00124 | train_loss 19.4379 | train_rmse 5.5463 | lr 0.000100
+2025-02-13 06:13:12 - INFO - [Validate] Epoch 00124 | valid_rmse 3.0768 | valid_pr 0.9918 | valid_criterion 3.0702 | score 0.6930
+2025-02-13 06:13:12 - INFO - No improvement for 42 epochs
+2025-02-13 06:13:13 - INFO - [Train] Epoch 00125 | train_loss 16.3647 | train_rmse 4.9626 | lr 0.000100
+2025-02-13 06:13:13 - INFO - [Validate] Epoch 00125 | valid_rmse 2.8999 | valid_pr 0.9904 | valid_criterion 4.5356 | score 0.5464
+2025-02-13 06:13:13 - INFO - No improvement for 43 epochs
+2025-02-13 06:13:14 - INFO - [Train] Epoch 00126 | train_loss 22.2260 | train_rmse 5.9411 | lr 0.000100
+2025-02-13 06:13:14 - INFO - [Validate] Epoch 00126 | valid_rmse 3.7995 | valid_pr 0.9926 | valid_criterion 3.0718 | score 0.6928
+2025-02-13 06:13:14 - INFO - No improvement for 44 epochs
+2025-02-13 06:13:16 - INFO - [Train] Epoch 00127 | train_loss 33.1822 | train_rmse 7.0824 | lr 0.000100
+2025-02-13 06:13:16 - INFO - [Validate] Epoch 00127 | valid_rmse 4.0596 | valid_pr 0.9932 | valid_criterion 3.7911 | score 0.6209
+2025-02-13 06:13:16 - INFO - No improvement for 45 epochs
+2025-02-13 06:13:17 - INFO - [Train] Epoch 00128 | train_loss 33.9049 | train_rmse 7.3345 | lr 0.000100
+2025-02-13 06:13:17 - INFO - [Validate] Epoch 00128 | valid_rmse 3.0160 | valid_pr 0.9927 | valid_criterion 3.1784 | score 0.6822
+2025-02-13 06:13:17 - INFO - No improvement for 46 epochs
+2025-02-13 06:13:18 - INFO - [Train] Epoch 00129 | train_loss 23.0969 | train_rmse 5.9894 | lr 0.000100
+2025-02-13 06:13:18 - INFO - [Validate] Epoch 00129 | valid_rmse 2.8177 | valid_pr 0.9937 | valid_criterion 2.4610 | score 0.7539
+2025-02-13 06:13:18 - INFO - No improvement for 47 epochs
+2025-02-13 06:13:20 - INFO - [Train] Epoch 00130 | train_loss 21.8747 | train_rmse 5.9388 | lr 0.000100
+2025-02-13 06:13:20 - INFO - [Validate] Epoch 00130 | valid_rmse 2.5091 | valid_pr 0.9930 | valid_criterion 1.8023 | score 0.8198
+2025-02-13 06:13:20 - INFO - No improvement for 48 epochs
+2025-02-13 06:13:21 - INFO - [Train] Epoch 00131 | train_loss 19.7748 | train_rmse 5.4856 | lr 0.000100
+2025-02-13 06:13:21 - INFO - [Validate] Epoch 00131 | valid_rmse 4.2428 | valid_pr 0.9922 | valid_criterion 4.8665 | score 0.5134
+2025-02-13 06:13:21 - INFO - No improvement for 49 epochs
+2025-02-13 06:13:22 - INFO - [Train] Epoch 00132 | train_loss 18.8900 | train_rmse 5.3042 | lr 0.000100
+2025-02-13 06:13:22 - INFO - [Validate] Epoch 00132 | valid_rmse 3.4265 | valid_pr 0.9897 | valid_criterion 2.1473 | score 0.7853
+2025-02-13 06:13:22 - INFO - No improvement for 50 epochs
+2025-02-13 06:13:23 - INFO - [Train] Epoch 00133 | train_loss 29.7749 | train_rmse 6.7447 | lr 0.000100
+2025-02-13 06:13:23 - INFO - [Validate] Epoch 00133 | valid_rmse 3.3638 | valid_pr 0.9923 | valid_criterion 2.7802 | score 0.7220
+2025-02-13 06:13:23 - INFO - No improvement for 51 epochs
+2025-02-13 06:13:24 - INFO - [Train] Epoch 00134 | train_loss 33.8134 | train_rmse 7.3021 | lr 0.000100
+2025-02-13 06:13:24 - INFO - [Validate] Epoch 00134 | valid_rmse 2.6577 | valid_pr 0.9933 | valid_criterion 2.1462 | score 0.7854
+2025-02-13 06:13:24 - INFO - No improvement for 52 epochs
+2025-02-13 06:13:25 - INFO - [Train] Epoch 00135 | train_loss 32.9821 | train_rmse 7.0126 | lr 0.000100
+2025-02-13 06:13:25 - INFO - [Validate] Epoch 00135 | valid_rmse 4.1836 | valid_pr 0.9934 | valid_criterion 4.2712 | score 0.5729
+2025-02-13 06:13:25 - INFO - No improvement for 53 epochs
+2025-02-13 06:13:27 - INFO - [Train] Epoch 00136 | train_loss 16.7068 | train_rmse 5.1319 | lr 0.000100
+2025-02-13 06:13:27 - INFO - [Validate] Epoch 00136 | valid_rmse 3.4188 | valid_pr 0.9917 | valid_criterion 4.3706 | score 0.5629
+2025-02-13 06:13:27 - INFO - No improvement for 54 epochs
+2025-02-13 06:13:28 - INFO - [Train] Epoch 00137 | train_loss 20.7360 | train_rmse 5.6289 | lr 0.000100
+2025-02-13 06:13:28 - INFO - [Validate] Epoch 00137 | valid_rmse 2.3071 | valid_pr 0.9934 | valid_criterion 2.2061 | score 0.7794
+2025-02-13 06:13:28 - INFO - No improvement for 55 epochs
+2025-02-13 06:13:29 - INFO - [Train] Epoch 00138 | train_loss 25.3619 | train_rmse 6.3946 | lr 0.000100
+2025-02-13 06:13:29 - INFO - [Validate] Epoch 00138 | valid_rmse 4.2582 | valid_pr 0.9933 | valid_criterion 5.3711 | score 0.4629
+2025-02-13 06:13:29 - INFO - No improvement for 56 epochs
+2025-02-13 06:13:30 - INFO - [Train] Epoch 00139 | train_loss 21.8454 | train_rmse 5.8224 | lr 0.000100
+2025-02-13 06:13:30 - INFO - [Validate] Epoch 00139 | valid_rmse 3.6898 | valid_pr 0.9928 | valid_criterion 3.1176 | score 0.6882
+2025-02-13 06:13:30 - INFO - No improvement for 57 epochs
+2025-02-13 06:13:31 - INFO - [Train] Epoch 00140 | train_loss 21.3152 | train_rmse 5.5590 | lr 0.000100
+2025-02-13 06:13:31 - INFO - [Validate] Epoch 00140 | valid_rmse 3.3355 | valid_pr 0.9922 | valid_criterion 3.1590 | score 0.6841
+2025-02-13 06:13:31 - INFO - No improvement for 58 epochs
+2025-02-13 06:13:33 - INFO - [Train] Epoch 00141 | train_loss 18.7455 | train_rmse 5.2352 | lr 0.000100
+2025-02-13 06:13:33 - INFO - [Validate] Epoch 00141 | valid_rmse 4.5701 | valid_pr 0.9912 | valid_criterion 6.1290 | score 0.3871
+2025-02-13 06:13:33 - INFO - No improvement for 59 epochs
+2025-02-13 06:13:34 - INFO - [Train] Epoch 00142 | train_loss 26.6671 | train_rmse 6.5785 | lr 0.000100
+2025-02-13 06:13:34 - INFO - [Validate] Epoch 00142 | valid_rmse 3.3583 | valid_pr 0.9929 | valid_criterion 3.5059 | score 0.6494
+2025-02-13 06:13:34 - INFO - No improvement for 60 epochs
+2025-02-13 06:13:35 - INFO - [Train] Epoch 00143 | train_loss 35.4376 | train_rmse 7.4126 | lr 0.000100
+2025-02-13 06:13:35 - INFO - [Validate] Epoch 00143 | valid_rmse 3.6474 | valid_pr 0.9918 | valid_criterion 2.1573 | score 0.7843
+2025-02-13 06:13:35 - INFO - No improvement for 61 epochs
+2025-02-13 06:13:36 - INFO - [Train] Epoch 00144 | train_loss 26.8854 | train_rmse 6.5372 | lr 0.000100
+2025-02-13 06:13:36 - INFO - [Validate] Epoch 00144 | valid_rmse 3.5121 | valid_pr 0.9917 | valid_criterion 5.4962 | score 0.4504
+2025-02-13 06:13:36 - INFO - No improvement for 62 epochs
+2025-02-13 06:13:37 - INFO - [Train] Epoch 00145 | train_loss 13.2640 | train_rmse 4.3926 | lr 0.000100
+2025-02-13 06:13:37 - INFO - [Validate] Epoch 00145 | valid_rmse 2.6075 | valid_pr 0.9940 | valid_criterion 2.4760 | score 0.7524
+2025-02-13 06:13:37 - INFO - No improvement for 63 epochs
+2025-02-13 06:13:38 - INFO - [Train] Epoch 00146 | train_loss 18.6756 | train_rmse 5.3354 | lr 0.000100
+2025-02-13 06:13:38 - INFO - [Validate] Epoch 00146 | valid_rmse 3.2338 | valid_pr 0.9925 | valid_criterion 3.5856 | score 0.6414
+2025-02-13 06:13:38 - INFO - No improvement for 64 epochs
+2025-02-13 06:13:39 - INFO - [Train] Epoch 00147 | train_loss 19.1108 | train_rmse 5.4907 | lr 0.000100
+2025-02-13 06:13:39 - INFO - [Validate] Epoch 00147 | valid_rmse 2.6560 | valid_pr 0.9935 | valid_criterion 3.7087 | score 0.6291
+2025-02-13 06:13:39 - INFO - No improvement for 65 epochs
+2025-02-13 06:13:40 - INFO - [Train] Epoch 00148 | train_loss 11.3522 | train_rmse 4.0290 | lr 0.000100
+2025-02-13 06:13:40 - INFO - [Validate] Epoch 00148 | valid_rmse 3.7489 | valid_pr 0.9934 | valid_criterion 4.5552 | score 0.5445
+2025-02-13 06:13:40 - INFO - No improvement for 66 epochs
+2025-02-13 06:13:41 - INFO - [Train] Epoch 00149 | train_loss 38.6604 | train_rmse 7.8056 | lr 0.000100
+2025-02-13 06:13:41 - INFO - [Validate] Epoch 00149 | valid_rmse 3.5861 | valid_pr 0.9924 | valid_criterion 5.1492 | score 0.4851
+2025-02-13 06:13:41 - INFO - No improvement for 67 epochs
+2025-02-13 06:13:43 - INFO - [Train] Epoch 00150 | train_loss 19.9263 | train_rmse 5.5863 | lr 0.000100
+2025-02-13 06:13:43 - INFO - [Validate] Epoch 00150 | valid_rmse 2.7784 | valid_pr 0.9936 | valid_criterion 3.2918 | score 0.6708
+2025-02-13 06:13:43 - INFO - No improvement for 68 epochs
+2025-02-13 06:13:44 - INFO - [Train] Epoch 00151 | train_loss 30.4561 | train_rmse 6.7325 | lr 0.000100
+2025-02-13 06:13:44 - INFO - [Validate] Epoch 00151 | valid_rmse 3.1228 | valid_pr 0.9884 | valid_criterion 4.9995 | score 0.5001
+2025-02-13 06:13:44 - INFO - No improvement for 69 epochs
+2025-02-13 06:13:45 - INFO - [Train] Epoch 00152 | train_loss 36.4428 | train_rmse 7.6037 | lr 0.000100
+2025-02-13 06:13:45 - INFO - [Validate] Epoch 00152 | valid_rmse 2.5617 | valid_pr 0.9917 | valid_criterion 3.0631 | score 0.6937
+2025-02-13 06:13:45 - INFO - No improvement for 70 epochs
+2025-02-13 06:13:47 - INFO - [Train] Epoch 00153 | train_loss 16.0420 | train_rmse 4.8053 | lr 0.000100
+2025-02-13 06:13:47 - INFO - [Validate] Epoch 00153 | valid_rmse 3.6007 | valid_pr 0.9942 | valid_criterion 4.0113 | score 0.5989
+2025-02-13 06:13:47 - INFO - No improvement for 71 epochs
+2025-02-13 06:13:48 - INFO - [Train] Epoch 00154 | train_loss 17.3404 | train_rmse 4.9983 | lr 0.000100
+2025-02-13 06:13:48 - INFO - [Validate] Epoch 00154 | valid_rmse 2.4726 | valid_pr 0.9951 | valid_criterion 2.8114 | score 0.7189
+2025-02-13 06:13:48 - INFO - No improvement for 72 epochs
+2025-02-13 06:13:49 - INFO - [Train] Epoch 00155 | train_loss 17.4395 | train_rmse 5.0621 | lr 0.000100
+2025-02-13 06:13:49 - INFO - [Validate] Epoch 00155 | valid_rmse 3.2546 | valid_pr 0.9950 | valid_criterion 3.7369 | score 0.6263
+2025-02-13 06:13:49 - INFO - No improvement for 73 epochs
+2025-02-13 06:13:51 - INFO - [Train] Epoch 00156 | train_loss 20.6336 | train_rmse 5.5532 | lr 0.000100
+2025-02-13 06:13:51 - INFO - [Validate] Epoch 00156 | valid_rmse 2.9944 | valid_pr 0.9950 | valid_criterion 3.7457 | score 0.6254
+2025-02-13 06:13:51 - INFO - No improvement for 74 epochs
+2025-02-13 06:13:52 - INFO - [Train] Epoch 00157 | train_loss 23.4922 | train_rmse 5.9697 | lr 0.000100
+2025-02-13 06:13:52 - INFO - [Validate] Epoch 00157 | valid_rmse 3.7394 | valid_pr 0.9943 | valid_criterion 5.3767 | score 0.4623
+2025-02-13 06:13:52 - INFO - No improvement for 75 epochs
+2025-02-13 06:13:53 - INFO - [Train] Epoch 00158 | train_loss 30.8743 | train_rmse 6.8741 | lr 0.000020
+2025-02-13 06:13:53 - INFO - [Validate] Epoch 00158 | valid_rmse 2.9863 | valid_pr 0.9946 | valid_criterion 3.7342 | score 0.6266
+2025-02-13 06:13:53 - INFO - No improvement for 76 epochs
+2025-02-13 06:13:54 - INFO - [Train] Epoch 00159 | train_loss 22.8509 | train_rmse 5.7659 | lr 0.000020
+2025-02-13 06:13:54 - INFO - [Validate] Epoch 00159 | valid_rmse 3.0134 | valid_pr 0.9943 | valid_criterion 3.8757 | score 0.6124
+2025-02-13 06:13:54 - INFO - No improvement for 77 epochs
+2025-02-13 06:13:55 - INFO - [Train] Epoch 00160 | train_loss 23.8531 | train_rmse 6.1636 | lr 0.000020
+2025-02-13 06:13:55 - INFO - [Validate] Epoch 00160 | valid_rmse 3.1013 | valid_pr 0.9936 | valid_criterion 4.3865 | score 0.5614
+2025-02-13 06:13:55 - INFO - No improvement for 78 epochs
+2025-02-13 06:13:56 - INFO - [Train] Epoch 00161 | train_loss 21.1066 | train_rmse 5.4793 | lr 0.000020
+2025-02-13 06:13:56 - INFO - [Validate] Epoch 00161 | valid_rmse 2.7552 | valid_pr 0.9949 | valid_criterion 3.6995 | score 0.6301
+2025-02-13 06:13:56 - INFO - No improvement for 79 epochs
+2025-02-13 06:13:58 - INFO - [Train] Epoch 00162 | train_loss 40.3514 | train_rmse 8.2130 | lr 0.000020
+2025-02-13 06:13:58 - INFO - [Validate] Epoch 00162 | valid_rmse 2.9193 | valid_pr 0.9949 | valid_criterion 3.7111 | score 0.6289
+2025-02-13 06:13:58 - INFO - No improvement for 80 epochs
+2025-02-13 06:13:59 - INFO - [Train] Epoch 00163 | train_loss 25.4143 | train_rmse 6.3372 | lr 0.000020
+2025-02-13 06:13:59 - INFO - [Validate] Epoch 00163 | valid_rmse 3.5552 | valid_pr 0.9954 | valid_criterion 4.1608 | score 0.5839
+2025-02-13 06:13:59 - INFO - No improvement for 81 epochs
+2025-02-13 06:14:00 - INFO - [Train] Epoch 00164 | train_loss 28.8555 | train_rmse 6.6583 | lr 0.000020
+2025-02-13 06:14:00 - INFO - [Validate] Epoch 00164 | valid_rmse 3.5858 | valid_pr 0.9941 | valid_criterion 5.1253 | score 0.4875
+2025-02-13 06:14:00 - INFO - No improvement for 82 epochs
+2025-02-13 06:14:01 - INFO - [Train] Epoch 00165 | train_loss 24.7315 | train_rmse 6.3082 | lr 0.000020
+2025-02-13 06:14:01 - INFO - [Validate] Epoch 00165 | valid_rmse 3.9477 | valid_pr 0.9941 | valid_criterion 5.3158 | score 0.4684
+2025-02-13 06:14:01 - INFO - No improvement for 83 epochs
+2025-02-13 06:14:03 - INFO - [Train] Epoch 00166 | train_loss 18.3899 | train_rmse 5.1870 | lr 0.000020
+2025-02-13 06:14:03 - INFO - [Validate] Epoch 00166 | valid_rmse 3.3452 | valid_pr 0.9952 | valid_criterion 4.1686 | score 0.5831
+2025-02-13 06:14:03 - INFO - No improvement for 84 epochs
+2025-02-13 06:14:04 - INFO - [Train] Epoch 00167 | train_loss 18.3334 | train_rmse 5.3247 | lr 0.000020
+2025-02-13 06:14:04 - INFO - [Validate] Epoch 00167 | valid_rmse 4.0303 | valid_pr 0.9947 | valid_criterion 4.7028 | score 0.5297
+2025-02-13 06:14:04 - INFO - No improvement for 85 epochs
+2025-02-13 06:14:05 - INFO - [Train] Epoch 00168 | train_loss 13.0106 | train_rmse 4.3650 | lr 0.000020
+2025-02-13 06:14:05 - INFO - [Validate] Epoch 00168 | valid_rmse 3.3048 | valid_pr 0.9955 | valid_criterion 3.9217 | score 0.6078
+2025-02-13 06:14:05 - INFO - No improvement for 86 epochs
+2025-02-13 06:14:06 - INFO - [Train] Epoch 00169 | train_loss 18.7538 | train_rmse 5.2680 | lr 0.000020
+2025-02-13 06:14:06 - INFO - [Validate] Epoch 00169 | valid_rmse 2.8007 | valid_pr 0.9953 | valid_criterion 3.4674 | score 0.6533
+2025-02-13 06:14:06 - INFO - No improvement for 87 epochs
+2025-02-13 06:14:07 - INFO - [Train] Epoch 00170 | train_loss 23.6589 | train_rmse 6.0530 | lr 0.000020
+2025-02-13 06:14:07 - INFO - [Validate] Epoch 00170 | valid_rmse 3.2155 | valid_pr 0.9947 | valid_criterion 4.3614 | score 0.5639
+2025-02-13 06:14:07 - INFO - No improvement for 88 epochs
+2025-02-13 06:14:08 - INFO - [Train] Epoch 00171 | train_loss 25.8560 | train_rmse 6.2228 | lr 0.000020
+2025-02-13 06:14:08 - INFO - [Validate] Epoch 00171 | valid_rmse 3.3590 | valid_pr 0.9942 | valid_criterion 4.4469 | score 0.5553
+2025-02-13 06:14:08 - INFO - No improvement for 89 epochs
+2025-02-13 06:14:09 - INFO - [Train] Epoch 00172 | train_loss 15.4760 | train_rmse 4.9218 | lr 0.000020
+2025-02-13 06:14:09 - INFO - [Validate] Epoch 00172 | valid_rmse 3.4909 | valid_pr 0.9950 | valid_criterion 3.8803 | score 0.6120
+2025-02-13 06:14:10 - INFO - No improvement for 90 epochs
+2025-02-13 06:14:10 - INFO - [Train] Epoch 00173 | train_loss 27.1721 | train_rmse 6.4721 | lr 0.000020
+2025-02-13 06:14:10 - INFO - [Validate] Epoch 00173 | valid_rmse 3.3051 | valid_pr 0.9948 | valid_criterion 4.2222 | score 0.5778
+2025-02-13 06:14:10 - INFO - No improvement for 91 epochs
+2025-02-13 06:14:12 - INFO - [Train] Epoch 00174 | train_loss 28.9457 | train_rmse 6.7909 | lr 0.000020
+2025-02-13 06:14:12 - INFO - [Validate] Epoch 00174 | valid_rmse 3.4431 | valid_pr 0.9949 | valid_criterion 4.4217 | score 0.5578
+2025-02-13 06:14:12 - INFO - No improvement for 92 epochs
+2025-02-13 06:14:13 - INFO - [Train] Epoch 00175 | train_loss 13.9856 | train_rmse 4.5005 | lr 0.000020
+2025-02-13 06:14:13 - INFO - [Validate] Epoch 00175 | valid_rmse 3.3874 | valid_pr 0.9941 | valid_criterion 5.1025 | score 0.4898
+2025-02-13 06:14:13 - INFO - No improvement for 93 epochs
+2025-02-13 06:14:14 - INFO - [Train] Epoch 00176 | train_loss 24.5228 | train_rmse 6.1501 | lr 0.000020
+2025-02-13 06:14:14 - INFO - [Validate] Epoch 00176 | valid_rmse 3.3725 | valid_pr 0.9921 | valid_criterion 5.3070 | score 0.4693
+2025-02-13 06:14:14 - INFO - No improvement for 94 epochs
+2025-02-13 06:14:15 - INFO - [Train] Epoch 00177 | train_loss 17.1723 | train_rmse 5.0925 | lr 0.000020
+2025-02-13 06:14:15 - INFO - [Validate] Epoch 00177 | valid_rmse 3.0728 | valid_pr 0.9937 | valid_criterion 4.4222 | score 0.5578
+2025-02-13 06:14:15 - INFO - No improvement for 95 epochs
+2025-02-13 06:14:16 - INFO - [Train] Epoch 00178 | train_loss 32.7078 | train_rmse 7.0197 | lr 0.000020
+2025-02-13 06:14:16 - INFO - [Validate] Epoch 00178 | valid_rmse 3.5659 | valid_pr 0.9941 | valid_criterion 4.5430 | score 0.5457
+2025-02-13 06:14:16 - INFO - No improvement for 96 epochs
+2025-02-13 06:14:17 - INFO - [Train] Epoch 00179 | train_loss 20.4265 | train_rmse 5.6552 | lr 0.000004
+2025-02-13 06:14:17 - INFO - [Validate] Epoch 00179 | valid_rmse 2.9718 | valid_pr 0.9947 | valid_criterion 2.9514 | score 0.7049
+2025-02-13 06:14:17 - INFO - No improvement for 97 epochs
+2025-02-13 06:14:18 - INFO - [Train] Epoch 00180 | train_loss 17.4236 | train_rmse 5.0886 | lr 0.000004
+2025-02-13 06:14:18 - INFO - [Validate] Epoch 00180 | valid_rmse 3.0701 | valid_pr 0.9951 | valid_criterion 3.0759 | score 0.6924
+2025-02-13 06:14:18 - INFO - No improvement for 98 epochs
+2025-02-13 06:14:19 - INFO - [Train] Epoch 00181 | train_loss 34.6574 | train_rmse 7.8083 | lr 0.000004
+2025-02-13 06:14:19 - INFO - [Validate] Epoch 00181 | valid_rmse 3.1556 | valid_pr 0.9946 | valid_criterion 3.6141 | score 0.6386
+2025-02-13 06:14:19 - INFO - No improvement for 99 epochs
+2025-02-13 06:14:21 - INFO - [Train] Epoch 00182 | train_loss 27.4353 | train_rmse 6.3981 | lr 0.000004
+2025-02-13 06:14:21 - INFO - [Validate] Epoch 00182 | valid_rmse 3.1929 | valid_pr 0.9952 | valid_criterion 3.5576 | score 0.6442
+2025-02-13 06:14:21 - INFO - No improvement for 100 epochs
+2025-02-13 06:14:21 - INFO - Early stopping triggered. No improvement for 100 epochs
+2025-02-13 06:14:21 - INFO - Best model was saved at epoch 82
+2025-02-13 06:14:21 - INFO - [Validate] Epoch 00182 | valid_rmse1 3.614530 | valid_pr1 0.984506 | valid_criterion 1.304912
