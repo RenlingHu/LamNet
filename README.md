@@ -1,6 +1,6 @@
 # LamNet
 
-LamNet: An Alchemical-Path-Aware Graph Neural Network for Accelerating Relative and Absolute Binding Free Energy Calculations
+LamNet: an Alchemical-Path-Aware Graph Neural Network to Accelerate Binding Free Energy Calculations for Drug Discovery and Beyond
 
 ![LamNet Overview](Figure1.png)
 
