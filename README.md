@@ -40,6 +40,7 @@ For detailed dependency information, please refer to `requirements.txt`
 ## Usage Guide
 
 We provide **part of** our training data (two targets for RBFE and two hosts for ABFE) to help readers understand the network architecture and training process of LamNet.
+
 We also provide **all of** our valid, test set to allow readers to reproduce the results metioned in our article using our trained model checkpoint.
 
 ### 1. Data Preprocessing (already done)
