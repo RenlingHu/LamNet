@@ -61,6 +61,11 @@ python 00.preprocessing_abfe.py --mode=score --csv_name=CB7
 ```
 
 ### 2. Model Training
+
+The example of **RBFE all-target training** using publicly available datasets can be found in the `model/`.
+
+The checkpoints used for all the experiments in the article are provided under the corresponding categories in the `model/`.
+
 ```bash
 # RBFE
 # all-target training
@@ -76,13 +81,15 @@ python 01.1_train.py --task_type=rbfe --mode=fewshot --system=BACE --use_aue_wei
 # all-host training
 python 01.1_train.py --task_type=abfe --mode=multi --system=all --use_aue_weight=False
 
-
 # Test model generalization
 # RBFE
 python 01.2_generalize.py --model_path='model/rbfe/rbfe_targetspecific/BACE_w/model/epoch100-rmse2.1705-pr0.9950-criterion1.8158-score0.8184.pt'
 ```
 
 ### 3. Model Evaluation and Optimization
+
+The checkpoints used for all the experiments in the article are provided under the corresponding categories in the `model/`.
+
 ```bash
 # Binding free energy scoring
 # RBFE
