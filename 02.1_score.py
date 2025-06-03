@@ -31,7 +31,7 @@ if __name__ == '__main__':
     parser.add_argument('--batch_size', default=1, type=int)
     parser.add_argument('--task_type', default='rbfe', type=str, help='rbfe, abfe')
     parser.add_argument('--mode', default='score', type=str, help='score')
-    parser.add_argument('--system', default='PTP1B', type=str)
+    parser.add_argument('--system', default='BACE', type=str)
     parser.add_argument('--connect', default='weak', type=str, help='weak, strong, custom')
     parser.add_argument('--model_path', default=None, type=str)
 

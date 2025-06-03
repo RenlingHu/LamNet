@@ -1,4 +1,3 @@
-# %%
 import os
 import pickle
 from rdkit import Chem
@@ -58,7 +57,6 @@ def std_protein(input_pdb, output_pdb):
     io.save(output_pdb)
 
 
-# %%
 def generate_pocket(data_root, distance=5, input_ligand_format='sdf'):
     """
     Generate protein pocket structure around ligand binding site
@@ -233,14 +231,13 @@ def complex(ligand_dir, ligand_path, pocket_path, cid, input_ligand_format='sdf'
             f.write(f"Error saving complex for {cid}: {str(e)}\n")
 
 
-def generate_complex(data_root, data_df, task_type='abfe', input_ligand_format='pdb', output_ligand_format='sdf'):
+def generate_complex(data_root, data_df,  input_ligand_format='pdb', output_ligand_format='sdf'):
     """
     Generate ligand-pocket complexes for all entries in dataset
     
     Args:
         data_root: Directory containing unprocessed data
         data_df: DataFrame with complex information
-        task_type: Type of task (abfe or rbfe)
         input_ligand_format: Format of input ligand files
         output_ligand_format: Format to convert ligands to
     """
@@ -249,7 +246,7 @@ def generate_complex(data_root, data_df, task_type='abfe', input_ligand_format='
     for sid in system_id:
         data_dir = os.path.join(data_root, sid)
         pbar = tqdm(total=len(data_df))
-        for i, row in data_df.iterrows():
+        for _, row in data_df.iterrows():
             if row['protein'] != sid:
                 continue
             lig1 = row['ligand1']
@@ -258,12 +255,11 @@ def generate_complex(data_root, data_df, task_type='abfe', input_ligand_format='
             if not os.path.exists(os.path.join(ligand_dir, f'{str(lig1)}_pocket.rdkit')):
                 complex(ligand_dir, ligand_path, pocket1_path, str(lig1), input_ligand_format=output_ligand_format)
 
-            if task_type == 'rbfe':
-                lig2 = row['ligand2']
-                ligand_dir, ligand_path = all2convert(data_dir, str(lig2), input_ligand_format=input_ligand_format, output_ligand_format=output_ligand_format)
-                pocket2_path = os.path.join(data_dir, str(lig2), f'{str(lig2)}_pocket.pdb')
-                if not os.path.exists(os.path.join(ligand_dir, f'{str(lig2)}_pocket.rdkit')):
-                    complex(ligand_dir, ligand_path, pocket2_path, str(lig2), input_ligand_format=output_ligand_format)
+            lig2 = row['ligand2']
+            ligand_dir, ligand_path = all2convert(data_dir, str(lig2), input_ligand_format=input_ligand_format, output_ligand_format=output_ligand_format)
+            pocket2_path = os.path.join(data_dir, str(lig2), f'{str(lig2)}_pocket.pdb')
+            if not os.path.exists(os.path.join(ligand_dir, f'{str(lig2)}_pocket.rdkit')):
+                complex(ligand_dir, ligand_path, pocket2_path, str(lig2), input_ligand_format=output_ligand_format)
             pbar.update(1)
 
 
@@ -272,7 +268,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Preprocess RBFE data')
     
     # Basic parameters
-    parser.add_argument('--task_type', type=str, default='rbfe', help='abfe, rbfe')
+    parser.add_argument('--task_type', type=str, default='rbfe', help='rbfe')
     parser.add_argument('--mode', type=str, default='train', help='train, score, optimize')
     parser.add_argument('--data_dir', type=str, default='./data', help='Data root directory')
     parser.add_argument('--csv_name', type=str, default=None, help='Dataset CSV filename')
@@ -299,5 +295,3 @@ if __name__ == '__main__':
     generate_complex(data_root, data_df, task_type=args.task_type,
                     input_ligand_format=args.input_ligand_format, 
                     output_ligand_format=args.output_ligand_format)
-
-# %%

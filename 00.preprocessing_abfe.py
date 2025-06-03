@@ -10,7 +10,6 @@ import numpy as np
 RDLogger.DisableLog('rdApp.*')
 
 
-# %%
 def generate_pocket(data_dir, data_df, distance=5, input_ligand_format='pdb'):
     """
     Generate protein pocket structure around ligand binding site
@@ -145,14 +144,13 @@ def complex(ligand_dir, ligand_path, pocket_path, lig):
         pickle.dump(complex, f)
 
 
-def generate_complex(data_dir, data_df, task_type='abfe'):
+def generate_complex(data_dir, data_df):
     """
     Generate ligand-pocket complexes for all entries in dataset
     
     Args:
         data_dir: Directory containing unprocessed data
         data_df: DataFrame with complex information
-        task_type: Type of task (default: abfe)
     """
     pbar = tqdm(total=len(data_df))
     for i, row in data_df.iterrows():
@@ -173,7 +171,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Preprocess ABFE data')
     
     # Basic parameters
-    parser.add_argument('--task_type', type=str, default='abfe', help='abfe, rbfe')
+    parser.add_argument('--task_type', type=str, default='abfe', help='abfe')
     parser.add_argument('--mode', type=str, default='score', help='train, score, optimize')
     parser.add_argument('--data_dir', type=str, default='./data', help='Data root directory')
     parser.add_argument('--csv_name', type=str, default=None, help='Dataset CSV filename')

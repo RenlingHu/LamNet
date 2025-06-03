@@ -110,8 +110,7 @@ if __name__ == '__main__':
 
     parser.add_argument('--task_type', default='rbfe', type=str, help='rbfe, abfe')
     parser.add_argument('--mode', default='multi', type=str, help='single, multi, fewshot')
-    parser.add_argument('--system', default='PTP1B', type=str)
-    parser.add_argument('--app_mode', default='score', type=str, help='score, optimize')
+    parser.add_argument('--system', default='BACE', type=str)
     
     parser.add_argument('--lr_single', default=5e-4, type=float, help='learning rate for single mode')
     parser.add_argument('--lr_multi', default=1e-2, type=float, help='learning rate for multi mode')
@@ -119,9 +118,6 @@ if __name__ == '__main__':
     parser.add_argument('--weight_decay_multi', default=1e-3, type=float, help='weight decay for multi mode')
     
     parser.add_argument('--use_aue_weight', default=True, type=bool, help='whether to use aue as weight')
-    
-    parser.add_argument('--use_specific_fewshot', default=False, type=bool, help='whether to increase weight of specific target data')
-    parser.add_argument('--specific_system', default=None, type=str or list, help='hif2a-nnp or [CDK2-nnp, CDK2]')
     
     args = parser.parse_args()
 
@@ -143,13 +139,15 @@ if __name__ == '__main__':
 
         # Load training and validation data based on mode
         if args.mode == 'multi':
-            train_df = pd.read_csv(os.path.join(data_dir, f'train.csv'))
-            valid_df = pd.read_csv(os.path.join(data_dir, f'valid.csv'))
-            # train_df = pd.read_csv(os.path.join(data_dir, f'{args.system}-train.csv'))
-            # valid_df = pd.read_csv(os.path.join(data_dir, f'{args.system}-valid.csv'))
+            if args.system == 'all':
+                train_df = pd.read_csv(os.path.join(data_dir, f'train.csv'))
+                valid_df = pd.read_csv(os.path.join(data_dir, f'valid.csv'))
+            else:
+                train_df = pd.read_csv(os.path.join(data_dir, f'{args.system}-train.csv'))
+                valid_df = pd.read_csv(os.path.join(data_dir, f'{args.system}-valid.csv'))
         if args.mode == 'fewshot':
             train_df = pd.read_csv(os.path.join(data_dir, f'{args.system}-fewshot.csv'))
-            valid_df = pd.read_csv(os.path.join(data_dir, f'valid.csv'))
+            valid_df = pd.read_csv(os.path.join(data_dir, f'{args.system}-valid.csv'))
         if args.mode == 'single':
             train_df = pd.read_csv(os.path.join(data_dir, f'{args.system}-single-train.csv'))
             valid_df = pd.read_csv(os.path.join(data_dir, f'{args.system}-single-valid.csv'))
@@ -205,7 +203,7 @@ if __name__ == '__main__':
         )
 
         # Loss function
-        if args.use_aue_weight or args.use_specific_fewshot:
+        if args.use_aue_weight:
             losscalculator = nn.MSELoss(reduction='none')
         else:
             losscalculator = nn.MSELoss(reduction='mean')
@@ -232,11 +230,10 @@ if __name__ == '__main__':
             label2_all = []
             pbar = tqdm(train_loader, desc=f'Epoch {epoch+1}/{args.epochs}')
             for batch in pbar:
-                graph1, graph2, extra, protein_values = batch
+                graph1, graph2, extra, _ = batch
                 graph1 = graph1.to(device)
                 graph2 = graph2.to(device)
                 extra = extra.to(device)
-                protein_values = protein_values.to(device)
                 pred = model(graph1, graph2, extra)
                 label1 = graph1.y1
                 label2 = graph1.y2
@@ -244,17 +241,8 @@ if __name__ == '__main__':
                 label1_all.extend(label1.detach().cpu().numpy().flatten())
                 label2_all.extend(label2.detach().cpu().numpy().flatten())
                 pred_all.extend(pred.detach().cpu().numpy().flatten())
-                
-                # Calculate loss with specific system weighting if enabled
-                if args.use_specific_fewshot:
-                    protein_values_list = protein_values.tolist()
-                    protein = ''.join(map(chr, [x for x in protein_values_list[0] if x != 0]))
-                    if protein == args.specific_system or protein in args.specific_system:
-                        loss = losscalculator(pred, label1) * 0.8  # Higher weight for specific system
-                    else:
-                        loss = losscalculator(pred, label1) * 0.2  # Lower weight for other systems
-                else:
-                    loss = losscalculator(pred, label1)
+
+                loss = losscalculator(pred, label1)
                 
                 # Apply AUE weighting if enabled
                 if args.use_aue_weight:
@@ -290,10 +278,7 @@ if __name__ == '__main__':
             norm_rmse = (10 - valid_rmse) / 10
             norm_pr = (valid_pr + 1) / 2
             norm_criterion = (10 - valid_criterion) / 10
-            if args.app_mode == 'score':
-                current_score = norm_criterion
-            if args.app_mode == 'optimize':  #unabled for now （both score and optimize）
-                current_score = norm_rmse
+            current_score = norm_criterion
             
             # Update learning rate
             if epoch < 50:

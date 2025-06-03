@@ -39,21 +39,24 @@ For detailed dependency information, please refer to `requirements.txt`
 
 ## Usage Guide
 
-### 1. Data Preprocessing
+We provide **part of** our training data (two targets for RBFE and two hosts for ABFE) to help readers understand the network architecture and training process of LamNet.
+We also provide **all of** our valid, test set to allow readers to reproduce the results metioned in our article using our trained model checkpoint.
+
+### 1. Data Preprocessing (already done)
 ```bash
 # RBFE
-# training data preprocessing
-python 00.preprocessing_abfe.py --mode=train --csv_name=datasets
-# scoring data preprocessing
-python 00.preprocessing_abfe.py --mode=score --csv_name=CB7
-
-# ABFE
-# training data preprocessing
+# training data preprocessing 
 python 00.preprocessing_rbfe.py --mode=train --csv_name=datasets --input_ligand_format=mol2
 # scoring data preprocessing
 python 00.preprocessing_rbfe.py --mode=score --csv_name=CDK2-weak --input_ligand_format=sdf
 # optimizing data preprocessing
 python 00.preprocessing_rbfe.py --mode=optimize --csv_name=CDK2_1oiu_1h1q --input_ligand_format=sdf
+
+# ABFE
+# training data preprocessing
+python 00.preprocessing_abfe.py --mode=train --csv_name=datasets
+# scoring data preprocessing
+python 00.preprocessing_abfe.py --mode=score --csv_name=CB7
 ```
 
 ### 2. Model Training
@@ -62,11 +65,11 @@ python 00.preprocessing_rbfe.py --mode=optimize --csv_name=CDK2_1oiu_1h1q --inpu
 # all-target training
 python 01.1_train.py --task_type=rbfe --mode=multi --system=all --use_aue_weight=True
 # leave-one-out training
-python 01.1_train.py --task_type=rbfe --mode=multi --system=CDK2 --use_aue_weight=True
+python 01.1_train.py --task_type=rbfe --mode=multi --system=BACE --use_aue_weight=True ##--batch_size=32
 # specific-target training
-python 01.1_train.py --task_type=rbfe --mode=single --system=CDK2 --use_aue_weight=True --batch_size=16
-# few-shot training
-python 01.1_train.py --task_type=rbfe --mode=fewshot --system=PTP1B --use_aue_weight=True --use_sepcific_fewshot=False
+python 01.1_train.py --task_type=rbfe --mode=single --system=BACE --use_aue_weight=True ##--batch_size=16
+# few-shot training 
+python 01.1_train.py --task_type=rbfe --mode=fewshot --system=BACE --use_aue_weight=True
 
 # ABFE
 # all-host training
@@ -75,20 +78,20 @@ python 01.1_train.py --task_type=abfe --mode=multi --system=all --use_aue_weight
 
 # Test model generalization
 # RBFE
-python 01.2_generalize.py --model_path='LamNet/model/rbfe/rbfe_pl/CDK2_w/model/epoch98-rmse4.8701-pr0.9762-criterion6.7655-score0.3234.pt'
+python 01.2_generalize.py --model_path='model/rbfe/rbfe_targetspecific/BACE_w/model/epoch100-rmse2.1705-pr0.9950-criterion1.8158-score0.8184.pt'
 ```
 
 ### 3. Model Evaluation and Optimization
 ```bash
 # Binding free energy scoring
 # RBFE
-python 02.1_score.py --task_type=rbfe --system=CDK2 --connect=weak --model_path='LamNet/model/rbfe/rbfe_pl/CDK2_w/model/epoch98-rmse4.8701-pr0.9762-criterion6.7655-score0.3234.pt'
+python 02.1_score.py --task_type=rbfe --system=BACE --connect=weak --model_path='model/rbfe/rbfe_pl/BACE_w/model/epoch59-rmse4.9747-pr0.9758-criterion7.4391-score0.2561.pt'
 # ABFE
-python 02.1_score.py --task_type=abfe --system=CB7 --model_path='LamNet/model/abfe/abfe_gh/model/epoch45-rmse21.9192-pr0.6414-criterion9.4640-score0.0536.pt'
+python 02.1_score.py --task_type=abfe --system=CB7 --model_path='model/abfe/abfe_gh/model/epoch45-rmse21.9192-pr0.6414-criterion9.4640-score0.0536.pt'
 
 # Alchemical parameter optimization
 # RBFE
-python 02.2_optimize.py --cutoff=10 --system=CDK2_1oiu_1h1q --model_path='LamNet/model/rbfe/rbfe_pl/CDK2_w/model/epoch98-rmse4.8701-pr0.9762-criterion6.7655-score0.3234.pt'
+python 02.2_optimize.py --cutoff=10 --system=CDK2_1oiu_1h1q --model_path='model/rbfe/rbfe_pl/CDK2_w/model/epoch98-rmse4.8701-pr0.9762-criterion6.7655-score0.3234.pt'
 ```
 
 ## License
