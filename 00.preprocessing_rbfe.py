@@ -292,6 +292,6 @@ if __name__ == '__main__':
 
     # Generate structures
     generate_pocket(data_root, distance=args.distance, input_ligand_format=args.input_ligand_format)
-    generate_complex(data_root, data_df, task_type=args.task_type,
+    generate_complex(data_root, data_df,
                     input_ligand_format=args.input_ligand_format, 
                     output_ligand_format=args.output_ligand_format)

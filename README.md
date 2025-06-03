@@ -47,7 +47,7 @@ We also provide **all of** our valid, test set to allow readers to reproduce the
 ```bash
 # RBFE
 # training data preprocessing 
-python 00.preprocessing_rbfe.py --mode=train --csv_name=datasets --input_ligand_format=mol2
+python 00.preprocessing_rbfe.py --mode=train --csv_name=datasets --input_ligand_format=sdf
 # scoring data preprocessing
 python 00.preprocessing_rbfe.py --mode=score --csv_name=CDK2-weak --input_ligand_format=sdf
 # optimizing data preprocessing

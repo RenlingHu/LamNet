@@ -1,4 +1,4 @@
-protein,ligand1,ligand2,lambdai,Gi(kcal/mol),stddev(kcal/mol),stddev(kcal/mol),aue(kcal/mol) 
+protein,ligand1,ligand2,lambdai,Gi(kcal/mol),stddev(kcal/mol),stddev(kcal/mol),aue(kcal/mol)
 pfkfb3-nnp,m30,m70,0,0,0,0.37 ,0.29 
 pfkfb3-nnp,m30,m70,0.05 ,16.44929,0.1227143,0.37 ,0.29 
 pfkfb3-nnp,m30,m70,0.1,30.21499,0.148627,0.37 ,0.29 

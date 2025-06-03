@@ -194,5 +194,5 @@ if __name__ == '__main__':
     # Generate structures
     generate_pocket(data_dir, data_df, distance=args.distance, 
                    input_ligand_format=args.input_ligand_format)
-    generate_complex(data_dir, data_df, task_type=args.task_type)
+    generate_complex(data_dir, data_df)
     generate_ligand(data_dir, data_df)
