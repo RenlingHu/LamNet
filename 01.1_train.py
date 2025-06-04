@@ -140,8 +140,10 @@ if __name__ == '__main__':
         # Load training and validation data based on mode
         if args.mode == 'multi':
             if args.system == 'all':
-                train_df = pd.read_csv(os.path.join(data_dir, f'train.csv'))
-                valid_df = pd.read_csv(os.path.join(data_dir, f'valid.csv'))
+                # train_df = pd.read_csv(os.path.join(data_dir, f'train.csv'))
+                # valid_df = pd.read_csv(os.path.join(data_dir, f'valid.csv'))
+                train_df = pd.read_csv(os.path.join(data_dir, f'train-example.csv'))
+                valid_df = pd.read_csv(os.path.join(data_dir, f'valid-example.csv'))
             else:
                 train_df = pd.read_csv(os.path.join(data_dir, f'{args.system}-train.csv'))
                 valid_df = pd.read_csv(os.path.join(data_dir, f'{args.system}-valid.csv'))

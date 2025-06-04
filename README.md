@@ -83,7 +83,10 @@ python 01.1_train.py --task_type=abfe --mode=multi --system=all --use_aue_weight
 
 # Test model generalization
 # RBFE
+# specific-target
 python 01.2_generalize.py --model_path='model/rbfe/rbfe_targetspecific/BACE_w/model/epoch100-rmse2.1705-pr0.9950-criterion1.8158-score0.8184.pt'
+# leave-one-out
+python 01.2_generalize.py --test_system=BACE --model_path='model/rbfe/rbfe_pl/BACE_w/model/epoch59-rmse4.9747-pr0.9758-criterion7.4391-score0.2561.pt'
 ```
 
 ### 3. Model Evaluation and Optimization
