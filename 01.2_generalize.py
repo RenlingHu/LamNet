@@ -44,11 +44,12 @@ if __name__ == '__main__':
     parser.add_argument('--task_type', default='rbfe', type=str, help='rbfe')
     parser.add_argument('--mode', default='single', type=str, help='single')
     parser.add_argument('--model_path', default=None, type=str)
-    parser.add_argument('--test_system', \
+    parser.add_argument('--test_system_list', \
         default=['CDK2', 'JNK1', 'TYK2', 'hif2a', \
                  'p38', 'pfkfb3', 'syk', 'tnks2', \
                  'BACE', 'MCL1', 'PTP1B', 'thrombin'], \
         type=list)
+    parser.add_argument('--test_system', default=None, type=str)
     args = parser.parse_args()
 
     # Set up device (GPU/MPS/CPU)
@@ -123,6 +124,11 @@ if __name__ == '__main__':
 
     # %%
     # Evaluate on each test system
-    for system in args.test_system:
+    if args.test_system == None:
+        for system in args.test_system_list:
+            rmse, coff = generalize(data_dir=data_dir, wk_dir=wk_dir, system=system, model=model, device=device)
+            print(f"{system}_valid_rmse-%.4f, {system}_valid_r-%.4f" % (rmse, coff))
+    else:
+        system = args.test_system
         rmse, coff = generalize(data_dir=data_dir, wk_dir=wk_dir, system=system, model=model, device=device)
         print(f"{system}_valid_rmse-%.4f, {system}_valid_r-%.4f" % (rmse, coff))
