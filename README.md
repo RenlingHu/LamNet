@@ -26,16 +26,20 @@ LamNet: an Alchemical-Path-Aware Graph Neural Network to Accelerate Binding Free
 - `02.2_optimize.py`: Advanced alchemical parameter optimization tools
 
 ### Directory Structure
-- `model/`: Model checkpoints and saved states
+- `model/`: Model checkpoints and log
 - `data/`: Training and evaluation datasets
 - `score/`: Scoring workspace and results
-- `optimize/`: Parameter optimization workspace
-- `multi/`: Multi-target/host model training
-- `fewshot/`: Few-shot learning experiments
-- `single/`: Target-specific model training
+- `optimize/`: Parameter optimization workspace and results
+- `multi/`: Multi-target/host model training workspace
+- `fewshot/`: Few-shot learning workspace
+- `single/`: Target-specific model training workspace
 
 ## Requirements
-For detailed dependency information, please refer to `requirements.txt`
+For detailed dependency information, please refer to `environment.yml`
+
+```bash
+conda env create -f environment.yml
+```
 
 ## Usage Guide
 
