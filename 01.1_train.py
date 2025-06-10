@@ -337,7 +337,7 @@ if __name__ == '__main__':
         load_model_dict(model, best_checkpoint)
         valid_rmse, valid_pr, valid_pred, valid_label, valid_criterion = val(model, valid_loader, device)
 
-        logger.info(f"[Validate] Epoch %05d | valid_rmse1 %.6f | valid_pr1 %.6f | valid_criterion %.6f" % (
+        logger.info(f"[Validate] Epoch %05d | valid_rmse %.6f | valid_pr %.6f | valid_criterion %.6f" % (
                     epoch, valid_rmse, valid_pr, valid_criterion)
                     )
 
