@@ -1,4 +1,6 @@
 protein,ligand1,ligand2,lambdai
+BACE,CAT-13a,CAT-13a,0.5
+BACE,CAT-13a,CAT-13a,0.5
 BACE,CAT-13a,CAT-4o,0.5
 BACE,CAT-4o,CAT-13a,0.5
 BACE,CAT-13a,CAT-13e,0.5
