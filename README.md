@@ -113,8 +113,7 @@ python 02.2_optimize.py --cutoff=10 --system=CDK2_1oiu_1h1q --model_path='model/
 This project is licensed under the open-source license. See the `LICENSE` file for details.
 
 ## Citation
-If you use LamNet in your research, please cite our work.
-[unpublished]
+If you use LamNet in your research, please cite our work. (https://doi.org/10.1093/nsr/nwaf559)
 
 ## Contact
 For any questions or issues, please contact us through the Issue system.
