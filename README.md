@@ -117,3 +117,7 @@ If you use LamNet in your research, please cite our work. (https://doi.org/10.10
 
 ## Contact
 For any questions or issues, please contact us through the Issue system.
+
+## Institutional Affiliation
+This work was conducted during the author's research at Shanghai Innovation Institute. 
+The core methodology development, software implementation, computational experiments, and validation were carried out during this period.
